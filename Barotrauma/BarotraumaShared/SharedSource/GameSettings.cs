@@ -1465,6 +1465,7 @@ namespace Barotrauma
             AutomaticCampaignLoadEnabled = doc.Root.GetAttributeBool("automaticcampaignloadenabled", AutomaticCampaignLoadEnabled);
             TextManagerDebugModeEnabled = doc.Root.GetAttributeBool("textmanagerdebugmodeenabled", TextManagerDebugModeEnabled);
 #endif
+
             XElement gameplayElement = doc.Root.Element("gameplay");
             jobPreferences = new List<Pair<string, int>>();
             if (gameplayElement != null)
