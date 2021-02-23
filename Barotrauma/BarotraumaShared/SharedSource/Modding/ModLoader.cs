@@ -50,7 +50,7 @@ namespace Barotrauma
                         asm.GetTypes().ForEach((type) =>
                         {
                             type.GetMethods().ForEach((method) =>
-                          {
+                            {
                                 if (method.IsStatic && method.IsPublic)
                                 {
                                     method.GetCustomAttributes().ForEach((attribute) =>
