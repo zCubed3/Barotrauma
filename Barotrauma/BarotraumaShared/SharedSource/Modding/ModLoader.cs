@@ -15,6 +15,7 @@ namespace Barotrauma
     {
 #if DEBUG
         private static Harmony internalInstance;
+        private static readonly List<Assembly> loadedAssemblies = new List<Assembly>();
         public static readonly List<Harmony> harmonyInstances = new List<Harmony>();
 #endif
 
@@ -23,6 +24,29 @@ namespace Barotrauma
 #if DEBUG
             // We have some internal patches that are helpful for debugging mods
             (internalInstance = new Harmony("Barotrauma.HarmonyPatches")).PatchAll(Assembly.GetExecutingAssembly());
+
+            DebugConsole.Commands.Add(new DebugConsole.Command("code_harmony", "Lists harmony patches", (string[] args) =>
+            {
+                string message = "";
+                harmonyInstances.ForEach((harmony) =>
+                {
+                    message += $"{harmony.Id}:\n";
+                    harmony.GetPatchedMethods().ForEach((method) => { message += $"\n{method.DeclaringType.Name}.{method.Name}()"; });
+                });
+
+                DebugConsole.NewMessage(message);
+            }));
+
+            DebugConsole.Commands.Add(new DebugConsole.Command("code_assemblies", "Lists loaded assemblies", (string[] args) =>
+            {
+                string message = "";
+                loadedAssemblies.ForEach((assembly) =>
+                {
+                    message += $"\n{assembly.GetName().Name}";
+                });
+
+                DebugConsole.NewMessage(message);
+            }));
 #endif
             LoadMods();
         }
@@ -61,6 +85,10 @@ namespace Barotrauma
                                 }
                             });
                         });
+
+#if DEBUG
+                        loadedAssemblies.Add(asm);
+#endif
                     }
                     catch (Exception exception) 
                     {

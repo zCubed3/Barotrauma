@@ -18,6 +18,26 @@ namespace TestMod
             harmony.PatchAll(System.Reflection.Assembly.GetExecutingAssembly());
 
             DebugConsole.NewMessage("TestMod init");
+
+            DebugConsole.Commands.Add(new DebugConsole.Command("grav_set", "Changes gravity based on the given x and y", (string[] args) =>
+            {
+                if (args.Length >= 2)
+                {
+                    float x, y;
+                    if (float.TryParse(args[0], out x) && float.TryParse(args[1], out y))
+                    {
+                        GameMain.World.Gravity = new Microsoft.Xna.Framework.Vector2(x, y);
+                        DebugConsole.NewMessage($"Gravity is now {GameMain.World.Gravity}");
+                    }
+                }
+            }
+            ));
+
+            DebugConsole.Commands.Add(new DebugConsole.Command("grav_reset", "Resets gravity to its default", (string[] args) =>
+            {
+                GameMain.World.Gravity = new Microsoft.Xna.Framework.Vector2(0f, -9.80665f);
+            }
+            ));
         }
     }
 
