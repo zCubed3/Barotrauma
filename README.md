@@ -1,5 +1,7 @@
 # Barotrauma
 
+## DISCLAIMER: Code mod support has only been tested and implemented on Windows, there is currently no support for MacOS or Linux but it'll be added once code mods are in a more stable state
+
 Copyright © Undertow Games 2017-2019
 
 Before downloading the source code, please read the [EULA](EULA.txt).
