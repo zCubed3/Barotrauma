@@ -13,7 +13,7 @@ using Directory = System.IO.Directory;
 
 namespace Barotrauma
 {
-    internal class EventEditorScreen : Screen
+    public class EventEditorScreen : Screen
     {
         private GUIFrame GuiFrame = null!;
 

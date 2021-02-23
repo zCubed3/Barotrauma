@@ -21,7 +21,7 @@ using System.Threading.Tasks;
 
 namespace Barotrauma
 {
-    class GameMain : Game
+    public class GameMain : Game
     {
         public static bool ShowFPS = false;
         public static bool ShowPerf = false;

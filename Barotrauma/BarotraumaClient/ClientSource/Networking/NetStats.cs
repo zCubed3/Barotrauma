@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    class NetStats
+    public class NetStats
     {
         public enum NetStatType
         {

@@ -18,7 +18,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class MainMenuScreen : Screen
+    public class MainMenuScreen : Screen
     {
         public enum Tab { NewGame = 1, LoadGame = 2, HostServer = 3, Settings = 4, Tutorials = 5, JoinServer = 6, CharacterEditor = 7, SubmarineEditor = 8, QuickStartDev = 9, ProfilingTestBench = 10, SteamWorkshop = 11, Credits = 12, Empty = 13 }
 

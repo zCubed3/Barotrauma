@@ -15,9 +15,9 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    class ParticleEditorScreen : Screen
+    public class ParticleEditorScreen : Screen
     {
-        class Emitter : ISerializableEntity
+        public class Emitter : ISerializableEntity
         {
             public float EmitTimer;
 

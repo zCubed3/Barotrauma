@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Barotrauma.Networking
 {
-    abstract class ClientPeer
+    public abstract class ClientPeer
     {
         protected class ServerContentPackage
         {

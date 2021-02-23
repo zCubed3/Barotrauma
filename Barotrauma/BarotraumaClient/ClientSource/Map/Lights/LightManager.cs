@@ -9,7 +9,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma.Lights
 {
-    class LightManager
+    public class LightManager
     {
         public static Entity ViewTarget { get; set; }
 

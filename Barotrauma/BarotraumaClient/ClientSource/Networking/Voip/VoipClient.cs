@@ -9,7 +9,7 @@ using Barotrauma.Items.Components;
 
 namespace Barotrauma.Networking
 {
-    class VoipClient : IDisposable
+    public class VoipClient : IDisposable
     {
         private GameClient gameClient;
         private ClientPeer netClient;

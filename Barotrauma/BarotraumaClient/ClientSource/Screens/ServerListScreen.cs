@@ -16,7 +16,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class ServerListScreen : Screen
+    public class ServerListScreen : Screen
     {
         //how often the client is allowed to refresh servers
         private readonly TimeSpan AllowedRefreshInterval = new TimeSpan(0, 0, 3);

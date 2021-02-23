@@ -16,7 +16,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma.CharacterEditor
 {
-    class CharacterEditorScreen : Screen
+    public class CharacterEditorScreen : Screen
     {
         public static CharacterEditorScreen Instance { get; private set; }
 

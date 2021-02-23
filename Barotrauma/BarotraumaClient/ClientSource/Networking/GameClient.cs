@@ -13,7 +13,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Networking
 {
-    class GameClient : NetworkMember
+    public class GameClient : NetworkMember
     {
         public override bool IsClient
         {

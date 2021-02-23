@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma.Networking
 {
-    class ClientEntityEventManager : NetEntityEventManager
+    public class ClientEntityEventManager : NetEntityEventManager
     {
         private List<ClientEntityEvent> events;
 

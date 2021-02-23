@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Barotrauma
 {
-    class SteamWorkshopScreen : Screen
+    public class SteamWorkshopScreen : Screen
     {
         private GUIFrame menu;
         private GUIListBox subscribedItemList, topItemList;

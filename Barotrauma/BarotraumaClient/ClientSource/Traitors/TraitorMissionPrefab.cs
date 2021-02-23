@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class TraitorMissionPrefab
+    public class TraitorMissionPrefab
     {
         public static readonly List<TraitorMissionPrefab> List = new List<TraitorMissionPrefab>();
 

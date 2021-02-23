@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace Barotrauma.Networking
 {
-    class FileReceiver
+    public class FileReceiver
     {
         public class FileTransferIn : IDisposable
         {            

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    partial class Screen
+    public partial class Screen
     {
         private GUIFrame frame;
         public GUIFrame Frame

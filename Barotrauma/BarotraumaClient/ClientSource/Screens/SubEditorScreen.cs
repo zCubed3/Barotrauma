@@ -19,7 +19,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    class SubEditorScreen : Screen
+    public class SubEditorScreen : Screen
     {
         private static readonly string[] crewExperienceLevels = 
         {

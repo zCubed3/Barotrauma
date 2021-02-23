@@ -107,7 +107,7 @@ namespace Barotrauma
     /// <see cref="StructurePrefab"/>
     /// <seealso cref="SubEditorScreen"/>
     /// </summary>
-    internal class AddOrDeleteCommand : Command
+    public class AddOrDeleteCommand : Command
     {
         private readonly Dictionary<InventorySlotItem, Inventory> PreviousInventories = new Dictionary<InventorySlotItem, Inventory>();
         private readonly List<MapEntity> Receivers;

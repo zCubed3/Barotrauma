@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class VotingInterface
+    public class VotingInterface
     {
         public bool VoteRunning = false;
 

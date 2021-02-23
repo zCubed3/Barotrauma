@@ -14,7 +14,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    class SpriteEditorScreen : Screen
+    public class SpriteEditorScreen : Screen
     {
         private GUIListBox textureList, spriteList;
 

@@ -16,7 +16,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    class LevelEditorScreen : Screen
+    public class LevelEditorScreen : Screen
     {
         private readonly Camera cam;
         public override Camera Cam

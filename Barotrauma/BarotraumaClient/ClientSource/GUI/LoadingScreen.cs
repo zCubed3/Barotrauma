@@ -10,7 +10,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class LoadingScreen
+    public class LoadingScreen
     {
         private readonly Texture2D defaultBackgroundTexture, overlay;
         private readonly SpriteSheet decorativeGraph, decorativeMap;
