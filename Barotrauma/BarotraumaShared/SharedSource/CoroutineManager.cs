@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace Barotrauma
 {
-    enum CoroutineStatus
+    public enum CoroutineStatus
     {
         Running, Success, Failure
     }

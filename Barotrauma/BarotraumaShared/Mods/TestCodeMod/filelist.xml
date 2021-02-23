@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="TestMod" path="Mods/TestMod/filelist.xml" corepackage="false" gameversion="0.12.0.3">
+  <Assembly file="Mods/TestCodeMod/Content/TestMod.dll" />
+</contentpackage>

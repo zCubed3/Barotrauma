@@ -7,13 +7,10 @@ namespace Barotrauma.InternalPatches
     {
         public static void Postfix(Harmony __instance, string id) 
         {
+#if DEBUG
             ModManager.harmonyInstances.Add(__instance);
-
-            if (GameSettings.VerboseLogging)
-            {
-                DebugConsole.NewMessage($"Harmony patch created with id {id}",
-                    Microsoft.Xna.Framework.Color.Orange);
-            }
+            DebugConsole.NewMessage($"Harmony patch created with id {id}");
+#endif
         }
     }
 }
