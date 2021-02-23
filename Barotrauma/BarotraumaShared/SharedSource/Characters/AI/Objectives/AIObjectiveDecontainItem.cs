@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveDecontainItem : AIObjective
+	public class AIObjectiveDecontainItem : AIObjective
     {
         public override string DebugTag => "decontain item";
 

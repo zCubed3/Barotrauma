@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    class TriggerEventAction : EventAction
+	public class TriggerEventAction : EventAction
     {
         [Serialize("", true)] 
         public string Identifier { get; set; }

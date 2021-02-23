@@ -12,7 +12,7 @@ namespace Barotrauma
 {
     public enum AIState { Idle, Attack, Escape, Eat, Flee, Avoid, Aggressive, PassiveAggressive, Protect, Observe, Freeze, Follow }
 
-    partial class EnemyAIController : AIController
+	public partial class EnemyAIController : AIController
     {
         public static bool DisableEnemyAI;
 
@@ -2265,7 +2265,7 @@ namespace Barotrauma
             return SelectedAiTarget;
         }
 
-        class WallTarget
+	public class WallTarget
         {
             public Vector2 Position;
             public Structure Structure;
@@ -2797,7 +2797,7 @@ namespace Barotrauma
     //keeps track of how preferable it is to attack a specific target
     //(if the Character can't inflict much damage the target, the priority decreases
     //and if the target attacks the Character, the priority increases)
-    class AITargetMemory
+	public class AITargetMemory
     {
         public readonly AITarget Target;
         public Vector2 Location { get; set; }

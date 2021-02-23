@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class MultiplyComponent : ArithmeticComponent
+	public class MultiplyComponent : ArithmeticComponent
     {
         public MultiplyComponent(Item item, XElement element)
             : base(item, element)

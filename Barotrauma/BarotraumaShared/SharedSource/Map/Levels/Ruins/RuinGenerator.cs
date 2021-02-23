@@ -10,7 +10,7 @@ using Barotrauma.Items.Components;
 
 namespace Barotrauma.RuinGeneration
 {
-    abstract class RuinShape
+	public abstract class RuinShape
     {
         protected Rectangle rect;
 
@@ -156,7 +156,7 @@ namespace Barotrauma.RuinGeneration
         }
     }
 
-    class Line
+	public class Line
     {
         public Vector2 A, B;
 
@@ -177,7 +177,7 @@ namespace Barotrauma.RuinGeneration
         }
     }
 
-    partial class Ruin
+	public partial class Ruin
     {
         private List<BTRoom> rooms;
         private List<Corridor> corridors;

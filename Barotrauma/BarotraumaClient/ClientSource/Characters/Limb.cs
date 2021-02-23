@@ -14,7 +14,7 @@ using SpriteParams = Barotrauma.RagdollParams.SpriteParams;
 
 namespace Barotrauma
 {
-    partial class LimbJoint
+    public partial class LimbJoint
     {
         public void UpdateDeformations(float deltaTime)
         {
@@ -100,7 +100,7 @@ namespace Barotrauma
         }
     }
 
-    partial class Limb
+    public partial class Limb
     {
         //minimum duration between hit/attack sounds
         public const float SoundInterval = 0.4f;
@@ -177,7 +177,7 @@ namespace Barotrauma
         private Dictionary<DecorativeSprite, SpriteState> spriteAnimState = new Dictionary<DecorativeSprite, SpriteState>();
         private Dictionary<int, List<DecorativeSprite>> DecorativeSpriteGroups = new Dictionary<int, List<DecorativeSprite>>();
 
-        class SpriteState
+        public class SpriteState
         {
             public float RotationState;
             public float OffsetState;

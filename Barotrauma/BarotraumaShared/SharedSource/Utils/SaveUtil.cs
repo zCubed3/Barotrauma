@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    partial class SaveUtil
+	public partial class SaveUtil
     {
         private static readonly string LegacySaveFolder = Path.Combine("Data", "Saves");
         private static readonly string LegacyMultiplayerSaveFolder = Path.Combine(LegacySaveFolder, "Multiplayer");

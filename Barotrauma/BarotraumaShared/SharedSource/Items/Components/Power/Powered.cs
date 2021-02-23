@@ -8,7 +8,7 @@ using Barotrauma.Sounds;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Powered : ItemComponent
+	public partial class Powered : ItemComponent
     {
         private static float updateTimer;
         protected static float UpdateInterval = 0.2f;

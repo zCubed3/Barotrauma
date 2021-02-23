@@ -3,7 +3,7 @@ using FarseerPhysics;
 
 namespace Barotrauma
 {
-    partial class SalvageMission : Mission
+    public partial class SalvageMission : Mission
     {
         public override void ClientReadInitial(IReadMessage msg)
         {

@@ -8,7 +8,7 @@ using Barotrauma.Particles;
 
 namespace Barotrauma.Items.Components
 {
-    class Propulsion : ItemComponent
+	public class Propulsion : ItemComponent
     {
         public enum UseEnvironment
         {

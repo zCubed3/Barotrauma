@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Networking
 {
-    abstract class NetEntityEvent
+	public abstract class NetEntityEvent
     {
         public enum Type
         {

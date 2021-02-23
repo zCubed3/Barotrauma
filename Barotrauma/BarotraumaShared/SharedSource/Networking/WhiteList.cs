@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    partial class WhiteListedPlayer
+	public partial class WhiteListedPlayer
     {
         public string Name;
         public string IP;
@@ -13,7 +13,7 @@ namespace Barotrauma.Networking
         public UInt16 UniqueIdentifier;
     }
 
-    partial class WhiteList
+	public partial class WhiteList
     {
         const string SavePath = "Data/whitelist.txt";
 

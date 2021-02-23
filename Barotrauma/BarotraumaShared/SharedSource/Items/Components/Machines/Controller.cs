@@ -9,7 +9,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma.Items.Components
 {
-    class LimbPos : ISerializableEntity
+	public class LimbPos : ISerializableEntity
     {
         [Editable]
         public LimbType LimbType { get; set; }
@@ -30,7 +30,7 @@ namespace Barotrauma.Items.Components
         }
     }
 
-    partial class Controller : ItemComponent, IServerSerializable
+	public partial class Controller : ItemComponent, IServerSerializable
     {
         //where the limbs of the user should be positioned when using the controller
         private readonly List<LimbPos> limbPositions;

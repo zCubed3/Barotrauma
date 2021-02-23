@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class StatusEffectAction : EventAction
+	public partial class StatusEffectAction : EventAction
     {
         private readonly List<StatusEffect> effects = new List<StatusEffect>();
 

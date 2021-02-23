@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class DecorativeSprite : ISerializableEntity
+    public class DecorativeSprite : ISerializableEntity
     {
         public class State
         {

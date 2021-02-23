@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Barotrauma
 {
-    class CoreEntityPrefab : MapEntityPrefab
+	public class CoreEntityPrefab : MapEntityPrefab
     {
         public static readonly PrefabCollection<CoreEntityPrefab> Prefabs = new PrefabCollection<CoreEntityPrefab>();
 

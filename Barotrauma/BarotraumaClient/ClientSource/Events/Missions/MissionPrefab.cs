@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class MissionPrefab
+    public partial class MissionPrefab
     {
         public Sprite Icon
         {

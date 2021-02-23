@@ -619,6 +619,8 @@ namespace Barotrauma
                 new GUIMessageBox(TextManager.Get("Error"), TextManager.Get(steamError));
             }
 
+            ModManager.Init();
+
             TitleScreen.LoadState = 100.0f;
             hasLoaded = true;
             if (GameSettings.VerboseLogging)

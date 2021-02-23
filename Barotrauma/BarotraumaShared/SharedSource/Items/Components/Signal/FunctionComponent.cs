@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class FunctionComponent : ItemComponent
+	public class FunctionComponent : ItemComponent
     {
         public enum FunctionType
         {

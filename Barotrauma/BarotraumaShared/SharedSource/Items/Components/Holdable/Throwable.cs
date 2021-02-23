@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class Throwable : Holdable
+	public class Throwable : Holdable
     {
         private float throwPos;
         private bool throwing, throwDone;

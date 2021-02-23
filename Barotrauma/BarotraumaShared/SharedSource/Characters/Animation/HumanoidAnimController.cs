@@ -9,7 +9,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma
 {
-    class HumanoidAnimController : AnimController
+	public class HumanoidAnimController : AnimController
     {
         public override RagdollParams RagdollParams
         {

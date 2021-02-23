@@ -39,7 +39,7 @@ namespace Barotrauma
         IdleUntilCanAttack
     }
 
-    struct AttackResult
+    public struct AttackResult
     {
         public float Damage
         {
@@ -74,7 +74,7 @@ namespace Barotrauma
         }
     }
 
-    partial class Attack : ISerializableEntity
+	public partial class Attack : ISerializableEntity
     {
         [Serialize(AttackContext.Any, true, description: "The attack will be used only in this context."), Editable]
         public AttackContext Context { get; private set; }

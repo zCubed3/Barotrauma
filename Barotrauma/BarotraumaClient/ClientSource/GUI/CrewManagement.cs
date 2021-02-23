@@ -8,7 +8,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma
 {
-    class CrewManagement
+    public class CrewManagement
     {
         private CampaignMode campaign => campaignUI.Campaign;
         private readonly CampaignUI campaignUI;

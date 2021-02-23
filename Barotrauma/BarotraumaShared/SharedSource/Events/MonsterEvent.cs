@@ -7,7 +7,7 @@ using Barotrauma.Items.Components;
 
 namespace Barotrauma
 {
-    class MonsterEvent : Event
+	public class MonsterEvent : Event
     {
         private readonly string speciesName;
         private readonly int minAmount, maxAmount;

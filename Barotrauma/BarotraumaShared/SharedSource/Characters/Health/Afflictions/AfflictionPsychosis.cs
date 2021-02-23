@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma
 {
-    partial class AfflictionPsychosis : Affliction
+	public partial class AfflictionPsychosis : Affliction
     {
 
         public AfflictionPsychosis(AfflictionPrefab prefab, float strength) : base(prefab, strength)

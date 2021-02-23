@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class CharacterStateInfo : PosInfo
+    public class CharacterStateInfo : PosInfo
     {
         public readonly Direction Direction;
 
@@ -35,7 +35,7 @@ namespace Barotrauma
         }
     }
 
-    partial class Character
+	public partial class Character
     {
         [Flags]
         private enum InputNetFlags : ushort

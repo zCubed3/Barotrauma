@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CorpsePrefab : HumanPrefab, IPrefab, IDisposable
+	public class CorpsePrefab : HumanPrefab, IPrefab, IDisposable
     {
         public static readonly PrefabCollection<CorpsePrefab> Prefabs = new PrefabCollection<CorpsePrefab>();
 

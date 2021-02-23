@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class ConnectionPanel : ItemComponent, IServerSerializable, IClientSerializable
+	public partial class ConnectionPanel : ItemComponent, IServerSerializable, IClientSerializable
     {
         public List<Connection> Connections;
 

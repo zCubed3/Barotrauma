@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class LevelData
+	public class LevelData
     {
         public enum LevelType
         {

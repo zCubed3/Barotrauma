@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Ladder : ItemComponent
+	public partial class Ladder : ItemComponent
     {
         public static List<Ladder> List { get; } = new List<Ladder>();
 

@@ -35,7 +35,7 @@ namespace Barotrauma.Networking
         public uint UIntValue;
     }
 
-    internal static class MsgWriter
+	public static class MsgWriter
     {
         internal static void Write(ref byte[] buf, ref int bitPos, bool val)
         {
@@ -212,7 +212,7 @@ namespace Barotrauma.Networking
         }
     }
 
-    internal static class MsgReader
+	public static class MsgReader
     {
         internal static bool ReadBoolean(byte[] buf, ref int bitPos)
         {

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class OxygenGenerator : Powered
+	public class OxygenGenerator : Powered
     {
         private float generatedAmount;
 

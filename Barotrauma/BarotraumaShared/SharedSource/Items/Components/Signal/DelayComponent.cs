@@ -3,9 +3,9 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class DelayComponent : ItemComponent
+	public class DelayComponent : ItemComponent
     {
-        class DelayedSignal
+	public class DelayedSignal
         {
             public readonly string Signal;
             public readonly float SignalStrength;

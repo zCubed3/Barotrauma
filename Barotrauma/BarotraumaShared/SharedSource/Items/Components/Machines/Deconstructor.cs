@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Deconstructor : Powered, IServerSerializable, IClientSerializable
+	public partial class Deconstructor : Powered, IServerSerializable, IClientSerializable
     {
         private float progressTimer;
         private float progressState;

@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class ExponentiationComponent : ItemComponent
+	public class ExponentiationComponent : ItemComponent
     {
         private float exponent;
         [InGameEditable, Serialize(1.0f, false, description: "The exponent of the operation.", alwaysUseInstanceValues: true)]

@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    abstract class StringComponent : ItemComponent
+	public abstract class StringComponent : ItemComponent
     {
         //an array to keep track of how long ago a signal was received on both inputs
         protected float[] timeSinceReceived;

@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma.MapCreatures.Behavior
 {
-    class BallastFloraBranch : VineTile
+	public class BallastFloraBranch : VineTile
     {
         public readonly BallastFloraBehavior? ParentBallastFlora;
         public int ID = -1;
@@ -85,7 +85,7 @@ namespace Barotrauma.MapCreatures.Behavior
         }
     }
 
-    internal partial class BallastFloraBehavior : ISerializableEntity
+	public partial class BallastFloraBehavior : ISerializableEntity
     {
 #if DEBUG || UNSTABLE
         public List<Tuple<Vector2, Vector2>> debugSearchLines = new List<Tuple<Vector2, Vector2>>();

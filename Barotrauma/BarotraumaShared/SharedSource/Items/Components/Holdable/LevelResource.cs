@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class LevelResource : ItemComponent, IServerSerializable
+	public partial class LevelResource : ItemComponent, IServerSerializable
     {
         private PhysicsBody trigger;
 

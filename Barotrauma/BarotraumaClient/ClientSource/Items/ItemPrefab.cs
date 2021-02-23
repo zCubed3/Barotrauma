@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class BrokenItemSprite
+    public class BrokenItemSprite
     {
         //sprite will be rendered if the condition of the item is below this
         public readonly float MaxCondition;
@@ -25,7 +25,7 @@ namespace Barotrauma
         }
     }
 
-    class ContainedItemSprite
+    public class ContainedItemSprite
     {
         public enum DecorativeSpriteBehaviorType
         {

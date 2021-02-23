@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Barotrauma.Networking
 {
-    static partial class VoipConfig
+	public static partial class VoipConfig
     {
         public const int MAX_COMPRESSED_SIZE = 120; //amount of bytes we expect each 60ms of audio to fit in
 

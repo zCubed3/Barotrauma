@@ -8,7 +8,7 @@ using FarseerPhysics.Dynamics;
 
 namespace Barotrauma
 {
-    class AIObjectiveCombat : AIObjective
+	public class AIObjectiveCombat : AIObjective
     {
         public override string DebugTag => "combat";
 

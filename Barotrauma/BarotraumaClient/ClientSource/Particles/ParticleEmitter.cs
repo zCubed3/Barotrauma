@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Particles
 {
-    class ParticleEmitter
+    public class ParticleEmitter
     {
         private float emitTimer;
         private float burstEmitTimer;
@@ -108,7 +108,7 @@ namespace Barotrauma.Particles
         }
     }
 
-    class ParticleEmitterPrefab
+    public class ParticleEmitterPrefab
     {        
         public readonly string Name;
 

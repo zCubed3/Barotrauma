@@ -7,7 +7,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectiveChargeBatteries : AIObjectiveLoop<PowerContainer>
+	public class AIObjectiveChargeBatteries : AIObjectiveLoop<PowerContainer>
     {
         public override string DebugTag => "charge batteries";
         public override bool AllowAutomaticItemUnequipping => true;

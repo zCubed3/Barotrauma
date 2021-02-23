@@ -14,7 +14,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Door : Pickable, IDrawableComponent, IServerSerializable
+	public partial class Door : Pickable, IDrawableComponent, IServerSerializable
     {
         private Gap linkedGap;
         private bool isOpen;

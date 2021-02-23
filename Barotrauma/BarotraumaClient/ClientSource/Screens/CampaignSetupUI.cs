@@ -9,7 +9,7 @@ using System.Globalization;
 
 namespace Barotrauma
 {
-    class CampaignSetupUI
+    public class CampaignSetupUI
     {
         private readonly GUIComponent newGameContainer, loadGameContainer;
 

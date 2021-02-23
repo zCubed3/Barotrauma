@@ -2,7 +2,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class Label : EventAction
+	public class Label : EventAction
     {
         [Serialize("", true)]
         public string Name { get; set; }

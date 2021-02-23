@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class Job
+	public class Job
     {
         private readonly JobPrefab prefab;
 

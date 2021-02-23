@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class NPCPersonalityTrait
+	public class NPCPersonalityTrait
     {
         private static List<NPCPersonalityTrait> list = new List<NPCPersonalityTrait>();
         public static List<NPCPersonalityTrait> List

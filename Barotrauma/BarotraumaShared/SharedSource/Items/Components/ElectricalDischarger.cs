@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class ElectricalDischarger : Powered, IServerSerializable
+	public partial class ElectricalDischarger : Powered, IServerSerializable
     {
         private static readonly List<ElectricalDischarger> list = new List<ElectricalDischarger>();
         public static IEnumerable<ElectricalDischarger> List

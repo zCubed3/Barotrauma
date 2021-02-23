@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class BallastFloraPrefab : IPrefab, IDisposable
+	public class BallastFloraPrefab : IPrefab, IDisposable
     {
         public string OriginalName { get; }
         public string Identifier { get; }

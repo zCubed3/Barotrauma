@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class MotionSensor : ItemComponent
+	public partial class MotionSensor : ItemComponent
     {
         private const float UpdateInterval = 0.1f;
         private float rangeX, rangeY;

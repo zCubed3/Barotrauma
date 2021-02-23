@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma.Items.Components
 {
-    class OscillatorComponent : ItemComponent
+	public class OscillatorComponent : ItemComponent
     {
         public enum WaveType
         {

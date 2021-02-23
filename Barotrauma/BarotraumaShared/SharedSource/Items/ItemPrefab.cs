@@ -11,7 +11,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    struct DeconstructItem
+    public struct DeconstructItem
     {
         public readonly string ItemIdentifier;
         //minCondition does <= check, meaning that below or equeal to min condition will be skipped.
@@ -35,7 +35,7 @@ namespace Barotrauma
         }
     }
 
-    class FabricationRecipe
+	public class FabricationRecipe
     {
         public class RequiredItem
         {
@@ -157,7 +157,7 @@ namespace Barotrauma
         }
     }
 
-    class PreferredContainer
+	public class PreferredContainer
     {
         public readonly HashSet<string> Primary = new HashSet<string>();
         public readonly HashSet<string> Secondary = new HashSet<string>();
@@ -195,7 +195,7 @@ namespace Barotrauma
         }
     }
 
-    partial class ItemPrefab : MapEntityPrefab
+    public partial class ItemPrefab : MapEntityPrefab
     {
         private readonly string name;
         public override string Name => name;

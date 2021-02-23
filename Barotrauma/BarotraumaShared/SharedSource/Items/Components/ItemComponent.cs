@@ -12,7 +12,7 @@ using Barotrauma.Sounds;
 
 namespace Barotrauma.Items.Components
 {
-    interface IDrawableComponent
+    public interface IDrawableComponent
     {
 #if CLIENT
         /// <summary>
@@ -27,7 +27,7 @@ namespace Barotrauma.Items.Components
     /// <summary>
     /// The base class for components holding the different functionalities of the item
     /// </summary>
-    partial class ItemComponent : ISerializableEntity
+	public partial class ItemComponent : ISerializableEntity
     {
         protected Item item;
 

@@ -8,7 +8,7 @@ using Barotrauma.Items.Components;
 
 namespace Barotrauma
 {
-    partial class HumanAIController : AIController
+	public partial class HumanAIController : AIController
     {
         public static bool debugai;
         public static bool DisableCrewAI;
@@ -80,7 +80,7 @@ namespace Barotrauma
 
         private readonly Dictionary<Character, float> structureDamageAccumulator = new Dictionary<Character, float>();
         private readonly Dictionary<Hull, HullSafety> knownHulls = new Dictionary<Hull, HullSafety>();
-        private class HullSafety
+	public class HullSafety
         {
             public float safety;
             public float timer;

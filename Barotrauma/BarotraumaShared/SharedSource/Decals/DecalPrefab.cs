@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class DecalPrefab : IPrefab, IDisposable
+	public class DecalPrefab : IPrefab, IDisposable
     {
         public readonly string Name;
 

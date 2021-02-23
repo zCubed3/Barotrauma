@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    internal partial class CampaignMetadata
+    public partial class CampaignMetadata
     {
         private const int MaxDrawnElements = 12;
 

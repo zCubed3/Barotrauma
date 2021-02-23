@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma.MapCreatures.Behavior
 {
-    internal class GrowIdleState: IBallastFloraState
+	public class GrowIdleState: IBallastFloraState
     {
         public readonly BallastFloraBehavior Behavior;
         private float growthTimer;

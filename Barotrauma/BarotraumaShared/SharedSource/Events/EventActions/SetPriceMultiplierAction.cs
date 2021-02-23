@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class SetPriceMultiplierAction : EventAction
+	public class SetPriceMultiplierAction : EventAction
     {
         public enum OperationType
         {

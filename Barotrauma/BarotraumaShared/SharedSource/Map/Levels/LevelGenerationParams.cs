@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class Biome
+	public class Biome
     {
         public readonly string Identifier;
         public readonly string OldIdentifier;
@@ -49,7 +49,7 @@ namespace Barotrauma
         }
     }
 
-    class LevelGenerationParams : ISerializableEntity
+	public class LevelGenerationParams : ISerializableEntity
     {
         public static List<LevelGenerationParams> LevelParams { get; private set; }
 

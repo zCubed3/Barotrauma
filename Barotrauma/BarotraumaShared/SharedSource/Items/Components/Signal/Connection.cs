@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Connection
+	public partial class Connection
     {
         //how many wires can be linked to connectors by default
         private const int DefaultMaxWires = 5;

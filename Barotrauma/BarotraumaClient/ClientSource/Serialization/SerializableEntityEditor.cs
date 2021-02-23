@@ -8,7 +8,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class SerializableEntityEditor : GUIComponent
+    public class SerializableEntityEditor : GUIComponent
     {
         private int elementHeight;
         private GUILayoutGroup layoutGroup;

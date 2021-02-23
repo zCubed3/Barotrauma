@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CombatAction : EventAction
+	public class CombatAction : EventAction
     {
         [Serialize(AIObjectiveCombat.CombatMode.Offensive, true)]
         public AIObjectiveCombat.CombatMode CombatMode { get; set; }

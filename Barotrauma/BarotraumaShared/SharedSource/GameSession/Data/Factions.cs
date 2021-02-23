@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class Faction
+	public class Faction
     {
         public Reputation Reputation { get; }
         public FactionPrefab Prefab { get; }
@@ -18,7 +18,7 @@ namespace Barotrauma
         }
     }
 
-    internal class FactionPrefab : IDisposable
+	public class FactionPrefab : IDisposable
     {
         public static List<FactionPrefab> Prefabs { get; set; }
 

@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class CharacterHUD
+    public class CharacterHUD
     {
         private static readonly Dictionary<ISpatialEntity, int> orderIndicatorCount = new Dictionary<ISpatialEntity, int>();
         const float ItemOverlayDelay = 1.0f;

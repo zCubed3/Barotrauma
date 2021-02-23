@@ -7,9 +7,9 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    static class OutpostGenerator
+	public static class OutpostGenerator
     {
-        class PlacedModule
+	public class PlacedModule
         {
             /// <summary>
             /// Info of this outpost module

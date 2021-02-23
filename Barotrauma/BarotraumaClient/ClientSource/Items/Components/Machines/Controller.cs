@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Controller : ItemComponent
+    public partial class Controller : ItemComponent
     {
         public override void DrawHUD(SpriteBatch spriteBatch, Character character)
         {

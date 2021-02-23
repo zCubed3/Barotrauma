@@ -11,7 +11,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma
 {
-    partial class Explosion
+	public partial class Explosion
     {
         private static readonly List<Triplet<Explosion, Vector2, float>> prevExplosions = new List<Triplet<Explosion, Vector2, float>>();
 

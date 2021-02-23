@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class SteeringPath
+	public class SteeringPath
     {
         private List<WayPoint> nodes;
 

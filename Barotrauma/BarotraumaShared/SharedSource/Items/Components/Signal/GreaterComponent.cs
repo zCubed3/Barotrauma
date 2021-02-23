@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class GreaterComponent : EqualsComponent
+	public class GreaterComponent : EqualsComponent
     {
         private float val1, val2;
 

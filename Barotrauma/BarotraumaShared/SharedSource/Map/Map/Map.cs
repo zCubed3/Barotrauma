@@ -7,7 +7,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    partial class Map
+	public partial class Map
     {
         public bool AllowDebugTeleport;
 

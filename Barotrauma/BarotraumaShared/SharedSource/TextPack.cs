@@ -8,7 +8,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    class TextPack
+	public class TextPack
     {
         public readonly string Language;
 

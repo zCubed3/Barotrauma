@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    static class Physics
+	public static class Physics
     {
         public const Category CollisionNone         = Category.None;
         public const Category CollisionAll          = Category.All;

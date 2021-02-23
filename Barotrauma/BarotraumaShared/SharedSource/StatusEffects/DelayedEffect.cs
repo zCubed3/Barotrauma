@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class DelayedListElement
+	public class DelayedListElement
     {
         public readonly DelayedEffect Parent;
         public readonly Entity Entity;
@@ -27,7 +27,7 @@ namespace Barotrauma
             StartPosition = startPosition;
         }
     }
-    class DelayedEffect : StatusEffect
+	public class DelayedEffect : StatusEffect
     {
         public static readonly List<DelayedListElement> DelayList = new List<DelayedListElement>();
 

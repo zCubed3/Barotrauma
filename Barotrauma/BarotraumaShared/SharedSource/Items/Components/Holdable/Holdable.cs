@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Holdable : Pickable, IServerSerializable, IClientSerializable
+	public partial class Holdable : Pickable, IServerSerializable, IClientSerializable
     {
         const float MaxAttachDistance = 150.0f;
 

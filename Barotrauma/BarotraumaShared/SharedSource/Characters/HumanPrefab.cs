@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class HumanPrefab
+	public class HumanPrefab
     {
         [Serialize("notfound", false)]
         public string Identifier { get; protected set; }

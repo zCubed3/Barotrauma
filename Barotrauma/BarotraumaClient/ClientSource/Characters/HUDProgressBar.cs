@@ -4,7 +4,7 @@ using System;
 
 namespace Barotrauma
 {
-    class HUDProgressBar
+    public class HUDProgressBar
     {
         private float progress;
 

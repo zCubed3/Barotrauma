@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class Vent : ItemComponent
+	public class Vent : ItemComponent
     {
         private float oxygenFlow;
 

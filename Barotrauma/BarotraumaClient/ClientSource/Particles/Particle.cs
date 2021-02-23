@@ -7,7 +7,7 @@ using System.Reflection.Metadata;
 
 namespace Barotrauma.Particles
 {
-    class Particle
+    public class Particle
     {
         private ParticlePrefab prefab;
 

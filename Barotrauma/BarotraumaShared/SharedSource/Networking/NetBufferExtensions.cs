@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma.Networking
 {
-    static class NetBufferExtensions
+	public static class NetBufferExtensions
     {
         //public static void WriteEnum(this NetBuffer buffer, Enum value)
         //{

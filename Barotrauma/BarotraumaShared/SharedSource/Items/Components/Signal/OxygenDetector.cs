@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class OxygenDetector : ItemComponent
+	public class OxygenDetector : ItemComponent
     {
         public OxygenDetector(Item item, XElement element)
             : base (item, element)

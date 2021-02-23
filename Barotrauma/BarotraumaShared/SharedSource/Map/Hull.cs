@@ -11,7 +11,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma
 {
-    partial class BackgroundSection
+    public partial class BackgroundSection
     {
         public Rectangle Rect;
         public int Index;
@@ -99,7 +99,7 @@ namespace Barotrauma
         }
     }
 
-    partial class Hull : MapEntity, ISerializableEntity, IServerSerializable
+	public partial class Hull : MapEntity, ISerializableEntity, IServerSerializable
     {
         public static List<Hull> hullList = new List<Hull>();
         public static List<EntityGrid> EntityGrids { get; } = new List<EntityGrid>();

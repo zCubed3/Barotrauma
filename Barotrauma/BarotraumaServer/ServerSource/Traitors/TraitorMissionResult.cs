@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    partial class TraitorMissionResult
+    public partial class TraitorMissionResult
     {
         public TraitorMissionResult(Traitor.TraitorMission mission)
         {

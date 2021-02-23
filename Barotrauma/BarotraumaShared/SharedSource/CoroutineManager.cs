@@ -10,7 +10,7 @@ namespace Barotrauma
         Running, Success, Failure
     }
 
-    class CoroutineHandle
+	public class CoroutineHandle
     {
         public readonly IEnumerator<object> Coroutine;
         public readonly string Name;
@@ -30,7 +30,7 @@ namespace Barotrauma
     }
 
     // Keeps track of all running coroutines, and runs them till the end.
-    static class CoroutineManager
+	public static class CoroutineManager
     {
         static readonly List<CoroutineHandle> Coroutines = new List<CoroutineHandle>();
 
@@ -267,7 +267,7 @@ namespace Barotrauma
         }
     }
   
-    class WaitForSeconds
+	public class WaitForSeconds
     {
         public readonly float TotalTime;
 

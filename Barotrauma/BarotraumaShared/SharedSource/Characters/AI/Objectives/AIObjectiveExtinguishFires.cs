@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class AIObjectiveExtinguishFires : AIObjectiveLoop<Hull>
+	public class AIObjectiveExtinguishFires : AIObjectiveLoop<Hull>
     {
         public override string DebugTag => "extinguish fires";
         public override bool ForceRun => true;

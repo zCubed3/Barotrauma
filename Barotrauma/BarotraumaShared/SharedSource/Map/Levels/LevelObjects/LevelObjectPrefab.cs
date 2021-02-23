@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class LevelObjectPrefab : ISerializableEntity
+	public partial class LevelObjectPrefab : ISerializableEntity
     {
         public static List<LevelObjectPrefab> List { get; } = new List<LevelObjectPrefab>();
 

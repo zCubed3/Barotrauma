@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class PriceInfo
+    public class PriceInfo
     {
         public readonly int Price;
         public readonly bool CanBeBought;

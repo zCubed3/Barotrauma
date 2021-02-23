@@ -37,7 +37,7 @@ namespace Barotrauma.Networking
         SomethingDifferent = 4
     }
 
-    partial class ServerSettings : ISerializableEntity
+	public partial class ServerSettings : ISerializableEntity
     {
         public const string SettingsFile = "serversettings.xml";
 
@@ -89,7 +89,7 @@ namespace Barotrauma.Networking
             }
         }
 
-        partial class NetPropertyData
+	public partial class NetPropertyData
         {
             private readonly SerializableProperty property;
             private readonly string typeString;

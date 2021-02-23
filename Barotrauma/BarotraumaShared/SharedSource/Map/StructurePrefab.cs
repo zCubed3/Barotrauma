@@ -11,7 +11,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    partial class StructurePrefab : MapEntityPrefab
+	public partial class StructurePrefab : MapEntityPrefab
     {
         public static readonly PrefabCollection<StructurePrefab> Prefabs = new PrefabCollection<StructurePrefab>();
 

@@ -3,7 +3,7 @@ using System;
 
 namespace Barotrauma.Networking
 {
-    static class NetConfig
+	public static class NetConfig
     {
         public const int DefaultPort = 27015;
         public const int DefaultQueryPort = 27016;

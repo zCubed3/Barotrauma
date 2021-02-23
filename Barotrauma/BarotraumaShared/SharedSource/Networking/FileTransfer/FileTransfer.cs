@@ -1,16 +1,16 @@
 ﻿namespace Barotrauma.Networking
 {
-    enum FileTransferStatus
+    public enum FileTransferStatus
     {
         NotStarted, Sending, Receiving, Finished, Canceled, Error
     }
 
-    enum FileTransferMessageType
+    public enum FileTransferMessageType
     {
         Unknown, Initiate, Data, TransferOnSameMachine, Cancel
     }
 
-    enum FileTransferType
+    public enum FileTransferType
     {
         Submarine, CampaignSave
     }

@@ -3,7 +3,7 @@ using System;
 
 namespace Barotrauma
 {
-    static class Timing
+	public static class Timing
     {
         private static double alpha;
 

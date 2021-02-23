@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class TrigonometricFunctionComponent : ItemComponent
+	public class TrigonometricFunctionComponent : ItemComponent
     {
         public enum FunctionType
         {

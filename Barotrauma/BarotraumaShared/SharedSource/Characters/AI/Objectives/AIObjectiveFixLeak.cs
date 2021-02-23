@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveFixLeak : AIObjective
+	public class AIObjectiveFixLeak : AIObjective
     {
         public override string DebugTag => "fix leak";
         public override bool ForceRun => true;

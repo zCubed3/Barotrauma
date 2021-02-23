@@ -9,7 +9,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma
 {
-    partial class Hull : MapEntity, ISerializableEntity, IServerSerializable, IClientSerializable
+    public partial class Hull : MapEntity, ISerializableEntity, IServerSerializable, IClientSerializable
     {
         private class RemoteDecal
         {

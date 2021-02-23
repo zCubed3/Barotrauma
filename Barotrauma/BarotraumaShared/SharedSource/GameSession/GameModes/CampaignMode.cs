@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    abstract partial class CampaignMode : GameMode
+	public abstract partial class CampaignMode : GameMode
     {
         const int MaxMoney = int.MaxValue / 2; //about 1 billion
         public const int InitialMoney = 8500;

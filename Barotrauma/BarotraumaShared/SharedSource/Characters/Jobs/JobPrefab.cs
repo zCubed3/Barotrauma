@@ -31,7 +31,7 @@ namespace Barotrauma
         }
     }
 
-    partial class JobPrefab : IPrefab, IDisposable
+	public partial class JobPrefab : IPrefab, IDisposable
     {
         public static readonly PrefabCollection<JobPrefab> Prefabs = new PrefabCollection<JobPrefab>();
 

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class CameraTransition
+    public class CameraTransition
     {
         public bool Running
         {

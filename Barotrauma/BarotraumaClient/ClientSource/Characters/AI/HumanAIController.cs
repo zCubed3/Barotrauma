@@ -3,7 +3,7 @@ using FarseerPhysics;
 
 namespace Barotrauma
 {
-    partial class HumanAIController : AIController
+    public partial class HumanAIController : AIController
     {
         partial void InitProjSpecific()
         {

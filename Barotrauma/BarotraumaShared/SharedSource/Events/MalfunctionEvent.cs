@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class MalfunctionEvent : Event
+	public class MalfunctionEvent : Event
     {
         private string[] targetItemIdentifiers;
 

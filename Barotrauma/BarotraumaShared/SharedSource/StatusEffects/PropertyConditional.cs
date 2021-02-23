@@ -11,7 +11,7 @@ namespace Barotrauma
     // - Simplify, remove unnecessary conversions
     // - Improve the flow so that the logic is undestandable.
     // - Maybe add some test cases for the operators?
-    class PropertyConditional
+	public class PropertyConditional
     {
         public enum ConditionType
         {

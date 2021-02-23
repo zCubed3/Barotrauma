@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class Gap : MapEntity
+	public partial class Gap : MapEntity
     {
         public static List<Gap> GapList = new List<Gap>();
 

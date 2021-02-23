@@ -12,7 +12,7 @@ using Voronoi2;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Projectile : ItemComponent, IServerSerializable
+	public partial class Projectile : ItemComponent, IServerSerializable
     {
         struct HitscanResult
         {

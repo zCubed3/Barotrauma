@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class AndComponent : ItemComponent
+	public class AndComponent : ItemComponent
     {
         protected string output, falseOutput;
 

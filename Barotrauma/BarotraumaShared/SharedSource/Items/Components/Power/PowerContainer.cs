@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class PowerContainer : Powered, IDrawableComponent, IServerSerializable, IClientSerializable
+	public partial class PowerContainer : Powered, IDrawableComponent, IServerSerializable, IClientSerializable
     {
         //[power/min]        
         private float capacity;

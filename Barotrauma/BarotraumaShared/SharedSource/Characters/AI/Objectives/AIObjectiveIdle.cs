@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveIdle : AIObjective
+	public class AIObjectiveIdle : AIObjective
     {
         public override string DebugTag => "idle";
         public override bool AllowAutomaticItemUnequipping => true;

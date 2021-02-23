@@ -7,12 +7,12 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Particles
 {
-    enum ParticleBlendState
+    public enum ParticleBlendState
     {
         AlphaBlend, Additive//, Distortion
     }
 
-    class ParticleManager
+    public class ParticleManager
     {
         private const int MaxOutOfViewDist = 500;
 

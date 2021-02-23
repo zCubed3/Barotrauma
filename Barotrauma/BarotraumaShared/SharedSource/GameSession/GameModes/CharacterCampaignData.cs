@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class CharacterCampaignData
+	public partial class CharacterCampaignData
     {
         public CharacterInfo CharacterInfo
         {

@@ -13,7 +13,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class FireSource : ISpatialEntity
+	public partial class FireSource : ISpatialEntity
     {
         const float OxygenConsumption = 50.0f;
         const float GrowSpeed = 20.0f;

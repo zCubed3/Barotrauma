@@ -26,7 +26,7 @@ namespace Barotrauma
     public enum SubmarineType { Player, Outpost, OutpostModule, Wreck, BeaconStation }
     public enum SubmarineClass { Undefined, Scout, Attack, Transport, DeepDiver }
 
-    partial class SubmarineInfo : IDisposable
+    public partial class SubmarineInfo : IDisposable
     {
         public const string SavePath = "Submarines";
 

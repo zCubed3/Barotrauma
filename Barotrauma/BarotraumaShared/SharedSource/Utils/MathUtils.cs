@@ -16,7 +16,7 @@ namespace Barotrauma
         Any = Left | Right | Top | Bottom | Center
     }
 
-    static class MathUtils
+	public static class MathUtils
     {
         public static float Percentage(float portion, float total)
         {
@@ -1048,7 +1048,7 @@ namespace Barotrauma
         }
     }
 
-    class CompareCCW : IComparer<Vector2>
+	public class CompareCCW : IComparer<Vector2>
     {
         private Vector2 center;
 

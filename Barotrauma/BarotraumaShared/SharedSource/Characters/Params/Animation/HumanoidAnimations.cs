@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    class HumanWalkParams : HumanGroundedParams
+	public class HumanWalkParams : HumanGroundedParams
     {
         public static HumanWalkParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<HumanWalkParams>(character, AnimationType.Walk);
         public static HumanWalkParams GetAnimParams(Character character, string fileName = null)
@@ -13,7 +13,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<HumanWalkParams>();
     }
 
-    class HumanRunParams : HumanGroundedParams
+	public class HumanRunParams : HumanGroundedParams
     {
         public static HumanRunParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<HumanRunParams>(character, AnimationType.Run);
         public static HumanRunParams GetAnimParams(Character character, string fileName = null)
@@ -24,7 +24,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<HumanRunParams>();
     }
 
-    class HumanSwimFastParams: HumanSwimParams
+	public class HumanSwimFastParams: HumanSwimParams
     {
         public static HumanSwimFastParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<HumanSwimFastParams>(character, AnimationType.SwimFast);
         public static HumanSwimFastParams GetAnimParams(Character character, string fileName = null)
@@ -36,7 +36,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<HumanSwimFastParams>();
     }
 
-    class HumanSwimSlowParams : HumanSwimParams
+	public class HumanSwimSlowParams : HumanSwimParams
     {
         public static HumanSwimSlowParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<HumanSwimSlowParams>(character, AnimationType.SwimSlow);
         public static HumanSwimSlowParams GetAnimParams(Character character, string fileName = null)
@@ -47,7 +47,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<HumanSwimSlowParams>();
     }
 
-    abstract class HumanSwimParams : SwimParams, IHumanAnimation
+	public abstract class HumanSwimParams : SwimParams, IHumanAnimation
     {
         [Serialize(0.5f, true), Editable(DecimalCount = 2)]
         public float LegMoveAmount { get; set; }
@@ -85,7 +85,7 @@ namespace Barotrauma
         public float FootRotateStrength { get; set; }
     }
 
-    abstract class HumanGroundedParams : GroundedMovementParams, IHumanAnimation
+	public abstract class HumanGroundedParams : GroundedMovementParams, IHumanAnimation
     {
         [Serialize(0.3f, true, description: "How much force is used to force the character upright."), Editable(MinValueFloat = 0, MaxValueFloat = 1, DecimalCount = 2)]
         public float GetUpForce { get; set; }

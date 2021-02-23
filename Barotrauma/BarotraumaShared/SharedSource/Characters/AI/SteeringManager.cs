@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class SteeringManager
+	public class SteeringManager
     {
         protected const float CircleDistance = 2.5f;
         protected const float CircleRadius = 0.3f;

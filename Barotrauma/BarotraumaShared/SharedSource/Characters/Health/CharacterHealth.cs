@@ -9,9 +9,9 @@ using System.Globalization;
 
 namespace Barotrauma
 {
-    partial class CharacterHealth
+	public partial class CharacterHealth
     {
-        class LimbHealth
+	public class LimbHealth
         {
             public Sprite IndicatorSprite;
             public Sprite HighlightSprite;

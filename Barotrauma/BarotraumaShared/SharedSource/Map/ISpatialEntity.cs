@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    interface ISpatialEntity
+    public interface ISpatialEntity
     {
         Vector2 Position { get; }
         Vector2 WorldPosition { get; }
@@ -10,7 +10,7 @@ namespace Barotrauma
         Submarine Submarine { get; }
     }
 
-    interface IIgnorable : ISpatialEntity
+    public interface IIgnorable : ISpatialEntity
     {
         bool IgnoreByAI { get; }
         bool OrderedToBeIgnored { get; set; }

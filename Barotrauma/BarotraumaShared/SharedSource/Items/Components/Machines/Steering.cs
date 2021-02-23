@@ -10,7 +10,7 @@ using Voronoi2;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Steering : Powered, IServerSerializable, IClientSerializable
+	public partial class Steering : Powered, IServerSerializable, IClientSerializable
     {
         private const float AutopilotRayCastInterval = 0.5f;
         private const float RecalculatePathInterval = 5.0f;

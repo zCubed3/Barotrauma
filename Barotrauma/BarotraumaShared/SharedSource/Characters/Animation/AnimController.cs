@@ -5,7 +5,7 @@ using System;
 
 namespace Barotrauma
 {
-    abstract class AnimController : Ragdoll
+	public abstract class AnimController : Ragdoll
     {
         public abstract GroundedMovementParams WalkParams { get; set; }
         public abstract GroundedMovementParams RunParams { get; set; }

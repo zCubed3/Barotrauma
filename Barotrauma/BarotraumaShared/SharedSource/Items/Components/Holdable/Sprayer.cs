@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Sprayer : RangedWeapon
+	public partial class Sprayer : RangedWeapon
     {
         [Serialize(0.0f, false, description: "The distance at which the item can spray walls.")]
         public float Range { get; set; }

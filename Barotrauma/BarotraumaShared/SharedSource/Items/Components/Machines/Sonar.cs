@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Sonar : Powered, IServerSerializable, IClientSerializable
+	public partial class Sonar : Powered, IServerSerializable, IClientSerializable
     {
         public enum Mode
         {
@@ -17,7 +17,7 @@ namespace Barotrauma.Items.Components
 
         public const float DefaultSonarRange = 10000.0f;
 
-        class ConnectedTransducer
+	public class ConnectedTransducer
         {
             public readonly SonarTransducer Transducer;
             public float SignalStrength;
@@ -45,7 +45,7 @@ namespace Barotrauma.Items.Components
 
         private Mode currentMode = Mode.Passive;
 
-        private class ActivePing
+	public class ActivePing
         {
             public float State;
             public bool IsDirectional;

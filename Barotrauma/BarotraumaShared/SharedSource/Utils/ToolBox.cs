@@ -40,7 +40,7 @@ namespace Barotrauma
 
     public static partial class ToolBox
     {
-        static internal class Epoch
+	public static class Epoch
         {
             private static readonly DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 

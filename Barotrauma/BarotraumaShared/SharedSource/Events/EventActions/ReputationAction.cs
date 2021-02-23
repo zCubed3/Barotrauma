@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class ReputationAction : EventAction
+	public class ReputationAction : EventAction
     {
         public enum ReputationType
         {

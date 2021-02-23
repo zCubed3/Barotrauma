@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    partial class StatusHUD : ItemComponent
+	public partial class StatusHUD : ItemComponent
     {
         public StatusHUD(Item item, XElement element)
             : base(item, element)

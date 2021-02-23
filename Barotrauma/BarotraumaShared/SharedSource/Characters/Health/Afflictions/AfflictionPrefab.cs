@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 
 namespace Barotrauma
 {
-    static class CPRSettings
+	public static class CPRSettings
     {
         public static string FilePath { get; private set; }
         public static bool IsLoaded { get; private set; }
@@ -61,7 +61,7 @@ namespace Barotrauma
         }
     }
 
-    class AfflictionPrefabHusk : AfflictionPrefab
+	public class AfflictionPrefabHusk : AfflictionPrefab
     {
         public AfflictionPrefabHusk(XElement element, string filePath, Type type = null) : base(element, filePath, type)
         {
@@ -111,7 +111,7 @@ namespace Barotrauma
         public readonly bool NeedsAir;
     }
 
-    class AfflictionPrefab : IPrefab, IDisposable
+	public class AfflictionPrefab : IPrefab, IDisposable
     {
         public class Effect
         {

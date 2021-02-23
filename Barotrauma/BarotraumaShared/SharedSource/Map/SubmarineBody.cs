@@ -15,7 +15,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    partial class SubmarineBody
+    public partial class SubmarineBody
     {
         public const float NeutralBallastPercentage = 0.07f;
 

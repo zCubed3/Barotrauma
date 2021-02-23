@@ -11,7 +11,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    static partial class CaveGenerator
+	public static partial class CaveGenerator
     {
         public static List<VoronoiCell> GraphEdgesToCells(List<GraphEdge> graphEdges, Rectangle borders, float gridCellSize, out List<VoronoiCell>[,] cellGrid)
         {

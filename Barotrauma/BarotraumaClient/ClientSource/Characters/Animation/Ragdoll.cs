@@ -13,7 +13,7 @@ using Barotrauma.Particles;
 
 namespace Barotrauma
 {
-    abstract partial class Ragdoll
+    public abstract partial class Ragdoll
     {
         public HashSet<SpriteDeformation> SpriteDeformations { get; protected set; } = new HashSet<SpriteDeformation>();
 

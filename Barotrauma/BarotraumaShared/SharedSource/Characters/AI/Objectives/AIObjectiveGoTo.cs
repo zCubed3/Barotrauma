@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectiveGoTo : AIObjective
+	public class AIObjectiveGoTo : AIObjective
     {
         public override string DebugTag => "go to";
 

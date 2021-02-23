@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Particles
 {
-    class ParticlePrefab : IPrefab, IDisposable, ISerializableEntity
+    public class ParticlePrefab : IPrefab, IDisposable, ISerializableEntity
     {
         public enum DrawTargetType { Air = 1, Water = 2, Both = 3 }
 

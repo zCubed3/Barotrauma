@@ -10,7 +10,7 @@ using Barotrauma.IO;
 
 namespace Barotrauma
 {
-    abstract class EditableParams : ISerializableEntity
+	public abstract class EditableParams : ISerializableEntity
     {
         public bool IsLoaded { get; protected set; }
         public string Name { get; private set; }

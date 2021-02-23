@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class AIObjectiveFixLeaks : AIObjectiveLoop<Gap>
+	public class AIObjectiveFixLeaks : AIObjectiveLoop<Gap>
     {
         public override string DebugTag => "fix leaks";
         public override bool ForceRun => true;

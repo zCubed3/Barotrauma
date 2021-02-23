@@ -42,7 +42,7 @@ namespace Barotrauma
             option == OrderOption;
     }
 
-    class Order
+	public class Order
     {
         public static Dictionary<string, Order> Prefabs { get; private set; }
         public static Dictionary<OrderCategory, Tuple<Sprite, Color>> OrderCategoryIcons { get; private set; }

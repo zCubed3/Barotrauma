@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class Gap : MapEntity
+    public partial class Gap : MapEntity
     {
         private float particleTimer;
 

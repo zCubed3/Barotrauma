@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class ItemAssemblyPrefab : MapEntityPrefab
+	public partial class ItemAssemblyPrefab : MapEntityPrefab
     {
         private readonly string name;
         public override string Name { get { return name; } }

@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    partial class EnemyAIController : AIController
+    public partial class EnemyAIController : AIController
     {
         public override void DebugDraw(SpriteBatch spriteBatch)
         {

@@ -22,7 +22,7 @@ namespace Barotrauma
         Herpes
     }
 
-    class WearableSprite
+    public class WearableSprite
     {
         public string UnassignedSpritePath { get; private set; }
         public string SpritePath { get; private set; }
@@ -196,7 +196,7 @@ namespace Barotrauma
 
 namespace Barotrauma.Items.Components
 {
-    class Wearable : Pickable, IServerSerializable
+	public class Wearable : Pickable, IServerSerializable
     {
         private readonly XElement[] wearableElements;
         private readonly WearableSprite[] wearableSprites;

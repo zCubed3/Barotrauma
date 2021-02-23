@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma.MapCreatures.Behavior
 {
-    class GrowToTargetState: GrowIdleState
+	public class GrowToTargetState: GrowIdleState
     {
         public readonly List<BallastFloraBranch> TargetBranches = new List<BallastFloraBranch>();
         public readonly Item Target;

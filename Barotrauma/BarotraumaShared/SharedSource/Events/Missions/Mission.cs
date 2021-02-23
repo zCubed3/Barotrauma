@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace Barotrauma
 {
-    abstract partial class Mission
+    public abstract partial class Mission
     {
         public readonly MissionPrefab Prefab;
         protected bool completed, failed;

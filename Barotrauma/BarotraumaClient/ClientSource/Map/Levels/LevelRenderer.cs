@@ -8,7 +8,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    class LevelWallVertexBuffer : IDisposable
+    public class LevelWallVertexBuffer : IDisposable
     {
         public VertexBuffer WallEdgeBuffer, WallBuffer;
         public readonly Texture2D WallTexture, EdgeTexture;
@@ -65,7 +65,7 @@ namespace Barotrauma
         }
     }
 
-    class LevelRenderer : IDisposable
+    public class LevelRenderer : IDisposable
     {
         private static BasicEffect wallEdgeEffect, wallCenterEffect;
 

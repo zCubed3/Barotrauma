@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    partial class GameMode
+	public partial class GameMode
     {
         public static List<GameModePreset> PresetList = new List<GameModePreset>();
 

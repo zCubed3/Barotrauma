@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Rope : ItemComponent, IServerSerializable
+	public partial class Rope : ItemComponent, IServerSerializable
     {
         private Item source, target;
 

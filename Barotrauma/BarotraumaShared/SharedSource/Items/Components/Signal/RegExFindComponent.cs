@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class RegExFindComponent : ItemComponent
+	public class RegExFindComponent : ItemComponent
     {
         private string expression;
 

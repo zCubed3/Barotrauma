@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class FishWalkParams : FishGroundedParams
+	public class FishWalkParams : FishGroundedParams
     {
         public static FishWalkParams GetDefaultAnimParams(Character character)
         {
@@ -19,7 +19,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<FishWalkParams>();
     }
 
-    class FishRunParams : FishGroundedParams
+	public class FishRunParams : FishGroundedParams
     {
         public static FishRunParams GetDefaultAnimParams(Character character)
         {
@@ -35,7 +35,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<FishRunParams>();
     }
 
-    class FishSwimFastParams : FishSwimParams
+	public class FishSwimFastParams : FishSwimParams
     {
         public static FishSwimFastParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<FishSwimFastParams>(character, AnimationType.SwimFast);
         public static FishSwimFastParams GetAnimParams(Character character, string fileName = null)
@@ -46,7 +46,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<FishSwimFastParams>();
     }
 
-    class FishSwimSlowParams : FishSwimParams
+	public class FishSwimSlowParams : FishSwimParams
     {
         public static FishSwimSlowParams GetDefaultAnimParams(Character character) => GetDefaultAnimParams<FishSwimSlowParams>(character, AnimationType.SwimSlow);
         public static FishSwimSlowParams GetAnimParams(Character character, string fileName = null)
@@ -57,7 +57,7 @@ namespace Barotrauma
         public override void StoreSnapshot() => StoreSnapshot<FishSwimSlowParams>();
     }
 
-    abstract class FishGroundedParams : GroundedMovementParams, IFishAnimation
+	public abstract class FishGroundedParams : GroundedMovementParams, IFishAnimation
     {
         protected static bool Check(Character character)
         {
@@ -144,7 +144,7 @@ namespace Barotrauma
         public float TailAngleInRadians { get; private set; } = float.NaN;
     }
 
-    abstract class FishSwimParams : SwimParams, IFishAnimation
+	public abstract class FishSwimParams : SwimParams, IFishAnimation
     {
         [Serialize(false, true, description: "Instead of linear movement (default), use a wave-like movement. Note: WaveAmplitude and WaveLength don't have any effect on this. It's synced with the movement speed."), Editable]
         public bool UseSineMovement { get; set; }
@@ -218,7 +218,7 @@ namespace Barotrauma
         public float TailAngleInRadians { get; private set; } = float.NaN;
     }
 
-    interface IFishAnimation
+    public interface IFishAnimation
     {
         string FootAngles { get; set; }
         Dictionary<int, float> FootAnglesInRadians { get; set; }

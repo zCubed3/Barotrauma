@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class VisualSlot
+    public class VisualSlot
     {
         public Rectangle Rect;
 

@@ -2,7 +2,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CheckMoneyAction : BinaryOptionAction
+	public class CheckMoneyAction : BinaryOptionAction
     {
         [Serialize(0, true)]
         public int Amount { get; set; }

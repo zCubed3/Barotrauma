@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma
 {
-    partial class AICharacter : Character
+    public partial class AICharacter : Character
     {
         public override void DrawFront(Microsoft.Xna.Framework.Graphics.SpriteBatch spriteBatch, Camera cam)
         {

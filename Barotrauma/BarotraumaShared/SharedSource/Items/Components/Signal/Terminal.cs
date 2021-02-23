@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Terminal : ItemComponent
+	public partial class Terminal : ItemComponent
     {
         private const int MaxMessageLength = ChatMessage.MaxLength;
 

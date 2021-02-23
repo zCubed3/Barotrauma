@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Barotrauma.Networking
 {
-    abstract class ServerPeer
+    public abstract class ServerPeer
     {
         public delegate void MessageCallback(NetworkConnection connection, IReadMessage message);
         public delegate void DisconnectCallback(NetworkConnection connection, string reason);

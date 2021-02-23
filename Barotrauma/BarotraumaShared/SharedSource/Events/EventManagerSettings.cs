@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class EventManagerSettings
+	public class EventManagerSettings
     {
         public static readonly List<EventManagerSettings> List = new List<EventManagerSettings>();
 

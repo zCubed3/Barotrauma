@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class Location
+	public partial class Location
     {
         public class TakenItem
         {

@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class SkillPrefab
+	public class SkillPrefab
     {
         public readonly string Identifier;
 

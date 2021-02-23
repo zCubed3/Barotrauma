@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class OrComponent : AndComponent
+	public class OrComponent : AndComponent
     {
         public OrComponent(Item item, XElement element)
             : base(item, element)

@@ -21,7 +21,7 @@ namespace Barotrauma
         All = Salvage | Monster | Cargo | Beacon | Nest | Mineral | Combat
     }
 
-    partial class MissionPrefab
+    public partial class MissionPrefab
     {
         public static readonly List<MissionPrefab> List = new List<MissionPrefab>();
 

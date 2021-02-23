@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    interface ISerializableEntity
+    public interface ISerializableEntity
     {
         string Name
         {

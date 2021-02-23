@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class RNGAction : BinaryOptionAction
+	public class RNGAction : BinaryOptionAction
     {
         [Serialize(0.0f, true)]
         public float Chance { get; set; }

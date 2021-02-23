@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    static class AutoItemPlacer
+	public static class AutoItemPlacer
     {
         private static readonly List<Item> spawnedItems = new List<Item>();
 

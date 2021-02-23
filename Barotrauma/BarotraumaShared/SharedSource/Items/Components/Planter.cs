@@ -30,7 +30,7 @@ namespace Barotrauma.Items.Components
         public bool IsNull() => Item == null;
     }
 
-    internal struct PlantSlot
+    public struct PlantSlot
     {
         public Vector2 Offset;
         public float Size;
@@ -48,7 +48,7 @@ namespace Barotrauma.Items.Components
         }
     }
 
-    internal partial class Planter : Pickable, IDrawableComponent
+	public partial class Planter : Pickable, IDrawableComponent
     {
         public static readonly PlantSlot NullSlot = new PlantSlot();
         public readonly Dictionary<int, PlantSlot> PlantSlots = new Dictionary<int, PlantSlot>();

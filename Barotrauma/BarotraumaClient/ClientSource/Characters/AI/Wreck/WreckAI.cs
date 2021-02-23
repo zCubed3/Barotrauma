@@ -5,7 +5,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma
 {
-    partial class WreckAI : IServerSerializable
+    public partial class WreckAI : IServerSerializable
     {
         private CoroutineHandle fadeOutRoutine;
         partial void FadeOutColors()

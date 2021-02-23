@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class LocationTypeChange
+	public class LocationTypeChange
     {
         public readonly string ChangeToType;
 

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    internal partial class CampaignMetadata
+	public partial class CampaignMetadata
     {
         public CampaignMode Campaign { get; }
 

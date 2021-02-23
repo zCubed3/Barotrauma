@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class SpawnAction : EventAction
+	public class SpawnAction : EventAction
     {
         public enum SpawnLocationType
         {

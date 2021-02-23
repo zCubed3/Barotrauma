@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    abstract partial class AIController : ISteerable
+	public abstract partial class AIController : ISteerable
     {
         public bool Enabled;
 

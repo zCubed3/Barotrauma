@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class Homoglyphs
+	public class Homoglyphs
     {
         ///List of homoglyphs taken from https://github.com/codebox/homoglyph/
         private static List<uint[]> homoglyphs = new List<uint[]>(){

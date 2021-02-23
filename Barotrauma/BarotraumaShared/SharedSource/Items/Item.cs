@@ -20,7 +20,7 @@ using Microsoft.Xna.Framework.Graphics;
 namespace Barotrauma
 {
 
-    partial class Item : MapEntity, IDamageable, IIgnorable, ISerializableEntity, IServerSerializable, IClientSerializable
+    public partial class Item : MapEntity, IDamageable, IIgnorable, ISerializableEntity, IServerSerializable, IClientSerializable
     {
         public static List<Item> ItemList = new List<Item>();
         public ItemPrefab Prefab => prefab as ItemPrefab;

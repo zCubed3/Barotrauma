@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveOperateItem : AIObjective
+	public class AIObjectiveOperateItem : AIObjective
     {
         public override string DebugTag => $"operate item {component.Name}";
         public override bool AllowAutomaticItemUnequipping => true;

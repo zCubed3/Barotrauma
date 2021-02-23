@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    class Skill
+	public class Skill
     {
         private float level;
 

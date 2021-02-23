@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class CharacterHealth
+    public partial class CharacterHealth
     {
         private static bool toggledThisFrame;
 

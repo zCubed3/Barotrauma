@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class AIObjectiveFindDivingGear : AIObjective
+	public class AIObjectiveFindDivingGear : AIObjective
     {
         public override string DebugTag => $"find diving gear ({gearTag})";
         public override bool ForceRun => true;

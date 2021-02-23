@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class EventManager
+    public partial class EventManager
     {
         private Graph intensityGraph;
         private Graph targetIntensityGraph;

@@ -8,7 +8,7 @@ using System.Globalization;
 
 namespace Barotrauma
 {
-    class TabMenu
+    public class TabMenu
     {
         public static bool PendingChanges = false;
 

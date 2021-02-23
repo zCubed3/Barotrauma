@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    abstract partial class Mission
+    public abstract partial class Mission
     {
         partial void ShowMessageProjSpecific(int missionState)
         {

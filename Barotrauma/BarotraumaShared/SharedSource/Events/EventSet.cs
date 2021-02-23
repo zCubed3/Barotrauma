@@ -7,9 +7,9 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 { 
-    class EventSet
+	public class EventSet
     {
-        internal class EventDebugStats
+	public class EventDebugStats
         {
             public readonly EventSet RootSet;
             public readonly Dictionary<string, int> MonsterCounts = new Dictionary<string, int>();

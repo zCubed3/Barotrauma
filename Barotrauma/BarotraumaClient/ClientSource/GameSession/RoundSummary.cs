@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class RoundSummary
+    public class RoundSummary
     {
         private const float jobColumnWidthPercentage = 0.11f;
         private const float characterColumnWidthPercentage = 0.44f;

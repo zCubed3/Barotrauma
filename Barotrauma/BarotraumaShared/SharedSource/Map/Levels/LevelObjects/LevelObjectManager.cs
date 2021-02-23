@@ -13,7 +13,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    partial class LevelObjectManager : Entity, IServerSerializable
+	public partial class LevelObjectManager : Entity, IServerSerializable
     {
         const int GridSize = 2000;
 
@@ -25,7 +25,7 @@ namespace Barotrauma
         {
         }
 
-        class SpawnPosition
+	public class SpawnPosition
         {
             public readonly GraphEdge GraphEdge;
             public readonly Vector2 Normal;

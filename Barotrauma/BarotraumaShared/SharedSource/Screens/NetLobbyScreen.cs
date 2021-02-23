@@ -4,7 +4,7 @@ using System;
 
 namespace Barotrauma
 {
-    partial class NetLobbyScreen : Screen
+	public partial class NetLobbyScreen : Screen
     {
         private UInt16 lastUpdateID;
         public UInt16 LastUpdateID

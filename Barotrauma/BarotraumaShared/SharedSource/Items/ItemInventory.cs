@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class ItemInventory : Inventory
+	public partial class ItemInventory : Inventory
     {
         private ItemContainer container;
         public ItemContainer Container

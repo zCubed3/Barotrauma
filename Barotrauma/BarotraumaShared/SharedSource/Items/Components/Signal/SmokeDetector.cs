@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class SmokeDetector : ItemComponent
+	public class SmokeDetector : ItemComponent
     {
         const float FireCheckInterval = 1.0f;
         private float fireCheckTimer;

@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    abstract class AIObjective
+	public abstract class AIObjective
     {
         public virtual float Devotion => AIObjectiveManager.baseDevotion;
 

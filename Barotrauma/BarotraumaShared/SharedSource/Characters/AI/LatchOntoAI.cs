@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class LatchOntoAI
+	public class LatchOntoAI
     {
         const float RaycastInterval = 5.0f;
 

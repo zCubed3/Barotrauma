@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class PetBehavior
+	public class PetBehavior
     {
         public enum StatusIndicatorType
         {
@@ -48,7 +48,7 @@ namespace Barotrauma
 
         public Character Owner { get; set; }
 
-        private class ItemProduction
+	public class ItemProduction
         {
             public struct Item
             {
@@ -142,7 +142,7 @@ namespace Barotrauma
             }
         }
 
-        private class Food
+	public class Food
         {
             public string Tag;
             public Vector2 HungerRange;

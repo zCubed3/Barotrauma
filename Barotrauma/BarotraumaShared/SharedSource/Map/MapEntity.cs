@@ -12,7 +12,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma
 {
-    abstract partial class MapEntity : Entity, ISpatialEntity
+	public abstract partial class MapEntity : Entity, ISpatialEntity
     {
         public static List<MapEntity> mapEntityList = new List<MapEntity>();
 

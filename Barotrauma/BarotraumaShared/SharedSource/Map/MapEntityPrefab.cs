@@ -8,12 +8,12 @@ using System.Xml.Linq;
 namespace Barotrauma
 {
     [Flags]
-    enum MapEntityCategory
+    public enum MapEntityCategory
     {
         Structure = 1, Decorative = 2, Machine = 4, Equipment = 8, Electrical = 16, Material = 32, Misc = 64, Alien = 128, Wrecked = 256, Thalamus = 512, ItemAssembly = 1024, Legacy = 2048
     }
 
-    abstract partial class MapEntityPrefab : IPrefab, IDisposable
+    public abstract partial class MapEntityPrefab : IPrefab, IDisposable
     {
         public static IEnumerable<MapEntityPrefab> List
         {

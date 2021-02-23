@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class NotComponent : ItemComponent
+	public class NotComponent : ItemComponent
     {
         private bool signalReceived;
 

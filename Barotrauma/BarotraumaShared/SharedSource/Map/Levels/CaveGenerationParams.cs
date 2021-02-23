@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CaveGenerationParams : ISerializableEntity
+	public class CaveGenerationParams : ISerializableEntity
     {
         public static List<CaveGenerationParams> CaveParams { get; private set; }
 

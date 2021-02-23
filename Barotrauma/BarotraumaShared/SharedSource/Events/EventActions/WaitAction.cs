@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class WaitAction : EventAction
+	public class WaitAction : EventAction
     {
         [Serialize(0.0f, true)]
         public float Time { get; set; }

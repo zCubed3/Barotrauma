@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma
 {
-    partial class Screen
+	public partial class Screen
     {
         private static Screen selected;
         

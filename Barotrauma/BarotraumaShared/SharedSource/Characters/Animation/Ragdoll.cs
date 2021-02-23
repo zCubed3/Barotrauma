@@ -14,7 +14,7 @@ using JointParams = Barotrauma.RagdollParams.JointParams;
 
 namespace Barotrauma
 {
-    abstract partial class Ragdoll
+	public abstract partial class Ragdoll
     {
         public abstract RagdollParams RagdollParams { get; protected set; }
 

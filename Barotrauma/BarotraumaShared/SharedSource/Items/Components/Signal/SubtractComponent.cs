@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class SubtractComponent : ArithmeticComponent
+	public class SubtractComponent : ArithmeticComponent
     {
         public SubtractComponent(Item item, XElement element)
             : base(item, element)

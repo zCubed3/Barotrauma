@@ -4,7 +4,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectiveFightIntruders : AIObjectiveLoop<Character>
+	public class AIObjectiveFightIntruders : AIObjectiveLoop<Character>
     {
         public override string DebugTag => "fight intruders";
         protected override float IgnoreListClearInterval => 30;

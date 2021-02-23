@@ -5,9 +5,9 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class MiniMap : Powered
+	public partial class MiniMap : Powered
     {
-        class HullData
+	public class HullData
         {
             public float? Oxygen;
             public float? Water;

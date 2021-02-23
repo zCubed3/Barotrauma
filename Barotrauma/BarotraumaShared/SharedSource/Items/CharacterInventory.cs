@@ -12,7 +12,7 @@ namespace Barotrauma
         None = 0, Any = 1, RightHand = 2, LeftHand = 4, Head = 8, InnerClothes = 16, OuterClothes = 32, Headset = 64, Card = 128, Bag = 256
     };
 
-    partial class CharacterInventory : Inventory
+	public partial class CharacterInventory : Inventory
     {
         private readonly Character character;
 

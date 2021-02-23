@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class ItemInventory : Inventory
+    public partial class ItemInventory : Inventory
     {
         protected override void ControlInput(Camera cam)
         {

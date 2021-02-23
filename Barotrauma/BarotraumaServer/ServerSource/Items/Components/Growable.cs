@@ -6,7 +6,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma.Items.Components
 {
-    internal partial class Growable
+    public partial class Growable
     {
         partial void LoadVines(XElement element)
         {

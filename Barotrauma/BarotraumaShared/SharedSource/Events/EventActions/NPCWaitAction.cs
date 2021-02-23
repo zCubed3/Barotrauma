@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class NPCWaitAction : EventAction
+	public class NPCWaitAction : EventAction
     {
         [Serialize("", true)]
         public string NPCTag { get; set; }

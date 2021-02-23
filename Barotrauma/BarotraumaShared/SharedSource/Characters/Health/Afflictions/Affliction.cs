@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class Affliction : ISerializableEntity
+	public class Affliction : ISerializableEntity
     {
         public readonly AfflictionPrefab Prefab;
 

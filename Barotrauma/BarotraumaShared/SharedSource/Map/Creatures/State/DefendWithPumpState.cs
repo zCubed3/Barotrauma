@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma.MapCreatures.Behavior
 {
-    class DefendWithPumpState : IBallastFloraState
+	public class DefendWithPumpState : IBallastFloraState
     {
         private readonly BallastFloraBranch targetBranch;
         private readonly List<Pump> allAvailablePumps = new List<Pump>();

@@ -10,7 +10,7 @@ using Barotrauma.Networking;
 // ReSharper disable ArrangeThisQualifier
 namespace Barotrauma
 {
-    internal class PropertyReference
+	public class PropertyReference
     {
         public object? OriginalValue { get; private set; }
 
@@ -176,7 +176,7 @@ namespace Barotrauma
         }
     }
 
-    internal class Upgrade : IDisposable
+    public class Upgrade : IDisposable
     {
         private ISerializableEntity TargetEntity { get; }
 

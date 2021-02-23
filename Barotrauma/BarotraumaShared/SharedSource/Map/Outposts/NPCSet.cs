@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    internal class NPCSet : IDisposable
+	public class NPCSet : IDisposable
     {
         private static List<NPCSet>? Sets { get; set; }
 

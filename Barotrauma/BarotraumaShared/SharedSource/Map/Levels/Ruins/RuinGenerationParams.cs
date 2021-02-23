@@ -13,12 +13,12 @@ using Barotrauma.IO;
 namespace Barotrauma.RuinGeneration
 {
     [Flags]
-    enum RuinEntityType
+    public enum RuinEntityType
     {
         Wall, Back, Door, Hatch, Prop
     }
 
-    class RuinGenerationParams : ISerializableEntity
+	public class RuinGenerationParams : ISerializableEntity
     {
         public static List<RuinGenerationParams> List
         {
@@ -206,7 +206,7 @@ namespace Barotrauma.RuinGeneration
         }
     }
 
-    class RuinRoom : ISerializableEntity
+	public class RuinRoom : ISerializableEntity
     {
         public enum RoomPlacement
         {
@@ -340,7 +340,7 @@ namespace Barotrauma.RuinGeneration
         }
     }
 
-    class RuinEntityConfig : ISerializableEntity
+	public class RuinEntityConfig : ISerializableEntity
     {
         public readonly MapEntityPrefab Prefab;
 

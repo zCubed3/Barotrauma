@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class ChatBox
+    public class ChatBox
     {
         public const string RadioChatString = "r; ";
 

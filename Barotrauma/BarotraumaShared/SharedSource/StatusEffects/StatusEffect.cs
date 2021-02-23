@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class DurationListElement
+	public class DurationListElement
     {
         public readonly StatusEffect Parent;
         public readonly Entity Entity;
@@ -39,7 +39,7 @@ namespace Barotrauma
         }
     }
 
-    partial class StatusEffect
+	public partial class StatusEffect
     {
         [Flags]
         public enum TargetType
@@ -56,7 +56,7 @@ namespace Barotrauma
             AllLimbs = 512
         }
 
-        class ItemSpawnInfo
+	public class ItemSpawnInfo
         {
             public enum SpawnPositionType
             {

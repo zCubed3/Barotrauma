@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class TagAction : EventAction
+	public class TagAction : EventAction
     {
         [Serialize("", true)]
         public string Criteria { get; set; }

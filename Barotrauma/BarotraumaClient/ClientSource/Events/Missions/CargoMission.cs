@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    partial class CargoMission : Mission
+    public partial class CargoMission : Mission
     {
         public override void ClientReadInitial(IReadMessage msg)
         {

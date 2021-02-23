@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {   
-    partial class Fabricator : Powered, IServerSerializable, IClientSerializable
+	public partial class Fabricator : Powered, IServerSerializable, IClientSerializable
     {
         private readonly List<FabricationRecipe> fabricationRecipes = new List<FabricationRecipe>();
 

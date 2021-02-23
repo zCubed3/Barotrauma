@@ -14,7 +14,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Networking
 {
-    partial class GameServer : NetworkMember
+    public partial class GameServer : NetworkMember
     {
         public override bool IsServer
         {
@@ -3777,7 +3777,7 @@ namespace Barotrauma.Networking
         }
     }
 
-    partial class PreviousPlayer
+    public partial class PreviousPlayer
     {
         public string Name;
         public string EndPoint;

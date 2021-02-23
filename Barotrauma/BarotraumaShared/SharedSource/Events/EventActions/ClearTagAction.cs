@@ -3,7 +3,7 @@ using NLog.Targets;
 
 namespace Barotrauma
 {
-    class ClearTagAction : EventAction
+	public class ClearTagAction : EventAction
     {
         [Serialize("", true)]
         public string Tag { get; set; }

@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    partial class AITarget
+    public partial class AITarget
     {
         public static bool ShowAITargets;
 

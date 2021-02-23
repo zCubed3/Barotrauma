@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class SkillCheckAction : BinaryOptionAction
+	public class SkillCheckAction : BinaryOptionAction
     {
         [Serialize("", true)]
         public string RequiredSkill { get; set; }

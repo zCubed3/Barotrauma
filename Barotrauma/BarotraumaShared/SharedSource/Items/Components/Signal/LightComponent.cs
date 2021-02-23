@@ -9,7 +9,7 @@ using Barotrauma.Lights;
 
 namespace Barotrauma.Items.Components
 {
-    partial class LightComponent : Powered, IServerSerializable, IDrawableComponent
+	public partial class LightComponent : Powered, IServerSerializable, IDrawableComponent
     {
         private Color lightColor;
         private float lightBrightness;

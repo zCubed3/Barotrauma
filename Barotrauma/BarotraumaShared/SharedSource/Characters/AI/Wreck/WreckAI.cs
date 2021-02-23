@@ -8,7 +8,7 @@ using System;
 
 namespace Barotrauma
 {
-    partial class WreckAI : IServerSerializable
+	public partial class WreckAI : IServerSerializable
     {
         public Submarine Wreck { get; private set; }
 

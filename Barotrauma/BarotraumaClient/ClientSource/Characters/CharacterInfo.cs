@@ -11,7 +11,7 @@ using Barotrauma.Items.Components;
 
 namespace Barotrauma
 {
-    partial class CharacterInfo
+    public partial class CharacterInfo
     {
         private static Sprite infoAreaPortraitBG;
 

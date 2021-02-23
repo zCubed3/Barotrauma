@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class EventPrefab
+	public class EventPrefab
     {
         public readonly XElement ConfigElement;    
         public readonly Type EventType;      

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class WreckAIConfig : ISerializableEntity
+	public class WreckAIConfig : ISerializableEntity
     {
         public string Name => "Wreck AI Config";
 

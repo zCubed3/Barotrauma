@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class TraitorManager
+    public partial class TraitorManager
     {
         public static readonly Random Random = new Random((int)DateTime.UtcNow.Ticks);
 

@@ -50,7 +50,8 @@ namespace Barotrauma
         Corpses,
         WreckAIConfig,
         UpgradeModules,
-        MapCreature
+        MapCreature,
+        Assembly // This is currently very, very experimental
     }
 
     public class ContentPackage
@@ -101,7 +102,8 @@ namespace Barotrauma
             ContentType.Orders,
             ContentType.Corpses,
             ContentType.UpgradeModules,
-            ContentType.MapCreature
+            ContentType.MapCreature,
+            ContentType.Assembly
         };
 
         //at least one file of each these types is required in core content packages
@@ -400,7 +402,9 @@ namespace Barotrauma
                     case ContentType.Submarine:
                     case ContentType.Wreck:
                     case ContentType.BeaconStation:
+                    case ContentType.Assembly:
                         break;
+
                     default:
                         try
                         {

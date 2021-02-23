@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class MeleeWeapon : Holdable
+	public class MeleeWeapon : Holdable
     {
         private float hitPos;
 

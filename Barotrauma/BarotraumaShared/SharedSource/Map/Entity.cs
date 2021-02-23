@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Barotrauma
 {
-    class Entity : ISpatialEntity
+    public class Entity : ISpatialEntity
     {
         public const ushort NullEntityID = 0;
         public const ushort EntitySpawnerID = ushort.MaxValue;

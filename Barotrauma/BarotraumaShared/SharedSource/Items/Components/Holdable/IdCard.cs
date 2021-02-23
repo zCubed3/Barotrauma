@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class IdCard : Pickable
+	public partial class IdCard : Pickable
     {
         public IdCard(Item item, XElement element) : base(item, element)
         {

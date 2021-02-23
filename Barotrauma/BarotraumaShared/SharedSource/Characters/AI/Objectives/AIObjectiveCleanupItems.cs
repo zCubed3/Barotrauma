@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveCleanupItems : AIObjectiveLoop<Item>
+	public class AIObjectiveCleanupItems : AIObjectiveLoop<Item>
     {
         public override string DebugTag => "cleanup items";
         public override bool KeepDivingGearOn => true;

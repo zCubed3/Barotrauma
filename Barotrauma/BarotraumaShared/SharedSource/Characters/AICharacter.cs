@@ -3,7 +3,7 @@ using System;
 
 namespace Barotrauma
 {
-    partial class AICharacter : Character
+	public partial class AICharacter : Character
     {
         //characters that are further than this from the camera (and all clients)
         //have all their limb physics bodies disabled

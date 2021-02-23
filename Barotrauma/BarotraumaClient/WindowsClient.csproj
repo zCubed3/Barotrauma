@@ -123,8 +123,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MonoMod.Common" Version="21.1.12.5" />
     <PackageReference Include="NVorbis" Version="0.8.6" />
     <PackageReference Include="RestSharp" Version="106.6.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries\Harmony\Harmony\Harmony.csproj" />
+    <ProjectReference Include="..\..\Libraries\Mono.Cecil\Mono.Cecil.csproj" />
   </ItemGroup>
 
   <ItemGroup>

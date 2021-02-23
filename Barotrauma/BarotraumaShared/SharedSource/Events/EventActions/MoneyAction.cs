@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class MoneyAction : EventAction
+	public class MoneyAction : EventAction
     {
         public MoneyAction(ScriptedEvent parentEvent, XElement element) : base(parentEvent, element) { }
 

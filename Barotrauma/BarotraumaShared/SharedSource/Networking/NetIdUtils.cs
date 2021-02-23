@@ -6,7 +6,7 @@ namespace Barotrauma.Networking
     /// <summary>
     /// Helper class for dealing with 16-bit IDs that wrap around ushort.MaxValue
     /// </summary>
-    static class NetIdUtils
+	public static class NetIdUtils
     {
         /// <summary>
         /// Is newID more recent than oldID

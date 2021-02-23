@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class CampaignUI
+    public class CampaignUI
     {
         private CampaignMode.InteractionType selectedTab;
 

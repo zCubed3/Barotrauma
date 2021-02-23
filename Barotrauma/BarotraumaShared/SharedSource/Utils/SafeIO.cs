@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma.IO
 {
-    static class Validation
+	public static class Validation
     {
         static readonly string[] unwritableDirs = new string[] { "Content", "Data/ContentPackages" };
 

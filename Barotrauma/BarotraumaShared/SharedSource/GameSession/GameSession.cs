@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class GameSession
+	public partial class GameSession
     {
         public enum InfoFrameTab { Crew, Mission, MyCharacter, Traitor };
 

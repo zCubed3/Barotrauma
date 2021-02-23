@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Barotrauma.Networking
 {
-    class VoipServer
+    public class VoipServer
     {
         private ServerPeer netServer;
         private List<VoipQueue> queues;

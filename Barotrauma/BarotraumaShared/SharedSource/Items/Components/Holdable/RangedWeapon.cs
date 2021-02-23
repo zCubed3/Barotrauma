@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class RangedWeapon : ItemComponent
+	public partial class RangedWeapon : ItemComponent
     {
         private float reload, reloadTimer;
 

@@ -10,7 +10,7 @@ using System.Text;
 
 namespace Barotrauma
 {
-    static class SteamAchievementManager
+	public static class SteamAchievementManager
     {
         private const float UpdateInterval = 1.0f;
 
@@ -23,7 +23,7 @@ namespace Barotrauma
         /// <summary>
         /// Keeps track of things that have happened during the round
         /// </summary>
-        class RoundData
+	public class RoundData
         {
             public readonly List<Reactor> Reactors = new List<Reactor>();
 

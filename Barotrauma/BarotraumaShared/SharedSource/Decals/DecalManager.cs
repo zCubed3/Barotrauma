@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class DecalManager
+	public class DecalManager
     {
         public PrefabCollection<DecalPrefab> Prefabs { get; private set; }
 

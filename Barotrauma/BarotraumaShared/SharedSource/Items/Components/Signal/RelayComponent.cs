@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class RelayComponent : PowerTransfer, IServerSerializable
+	public class RelayComponent : PowerTransfer, IServerSerializable
     {
         private float maxPower;
 

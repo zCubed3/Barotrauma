@@ -8,7 +8,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Pump : Powered, IServerSerializable, IClientSerializable
+	public partial class Pump : Powered, IServerSerializable, IClientSerializable
     {
         private float flowPercentage;
         private float maxFlow;

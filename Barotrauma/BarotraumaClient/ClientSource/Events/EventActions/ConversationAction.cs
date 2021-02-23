@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    partial class ConversationAction : EventAction
+    public partial class ConversationAction : EventAction
     {
         private GUIMessageBox dialogBox;
 

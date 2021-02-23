@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    internal readonly struct UpgradePrice
+    public readonly struct UpgradePrice
     {
         public readonly int BasePrice;
 
@@ -52,7 +52,7 @@ namespace Barotrauma
         }
     }
 
-    internal class UpgradeCategory
+	public class UpgradeCategory
     {
         public static readonly List<UpgradeCategory> Categories = new List<UpgradeCategory>();
 
@@ -119,7 +119,7 @@ namespace Barotrauma
         }
     }
 
-    internal partial class UpgradePrefab : IPrefab, IDisposable
+	public partial class UpgradePrefab : IPrefab, IDisposable
     {
         public static readonly PrefabCollection<UpgradePrefab> Prefabs = new PrefabCollection<UpgradePrefab>();
 

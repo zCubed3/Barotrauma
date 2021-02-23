@@ -13,7 +13,7 @@ using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
 namespace Barotrauma
 {
     
-    internal class UpgradeStore
+    public class UpgradeStore
     {
         private readonly struct CategoryData
         {

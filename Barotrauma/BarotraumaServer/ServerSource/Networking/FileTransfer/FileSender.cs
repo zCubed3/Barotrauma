@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Barotrauma.Networking
 {
-    class FileSender
+    public class FileSender
     {
         public class FileTransferOut
         {

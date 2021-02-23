@@ -18,7 +18,7 @@ namespace Barotrauma.MapCreatures.Behavior
     {
         
         // ReSharper disable AutoPropertyCanBeMadeGetOnly.Global, UnusedAutoPropertyAccessor.Global, MemberCanBePrivate.Global
-        internal class DamageParticle
+        public class DamageParticle
         {
             [Serialize(defaultValue: "", isSaveable: false)]
             public string Identifier { get; set; } = "";

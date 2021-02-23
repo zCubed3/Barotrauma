@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    partial class BannedPlayer
+	public partial class BannedPlayer
     {
         public string Name;
         public string EndPoint; public bool IsRangeBan;
@@ -21,7 +21,7 @@ namespace Barotrauma.Networking
         }
     }
 
-    partial class BanList
+	public partial class BanList
     {
         private readonly List<BannedPlayer> bannedPlayers;
         public IEnumerable<string> BannedNames

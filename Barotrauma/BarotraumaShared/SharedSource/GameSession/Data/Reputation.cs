@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    class Reputation
+	public class Reputation
     {
         public const float HostileThreshold = 0.1f;
         public const float ReputationLossPerNPCDamage = 0.1f;

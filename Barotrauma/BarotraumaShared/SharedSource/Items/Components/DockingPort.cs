@@ -11,7 +11,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class DockingPort : ItemComponent, IDrawableComponent, IServerSerializable
+	public partial class DockingPort : ItemComponent, IDrawableComponent, IServerSerializable
     {
         public enum DirectionType
         {

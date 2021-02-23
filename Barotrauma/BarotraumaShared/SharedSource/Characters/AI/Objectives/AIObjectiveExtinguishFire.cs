@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectiveExtinguishFire : AIObjective
+	public class AIObjectiveExtinguishFire : AIObjective
     {
         public override string DebugTag => "extinguish fire";
         public override bool ForceRun => true;

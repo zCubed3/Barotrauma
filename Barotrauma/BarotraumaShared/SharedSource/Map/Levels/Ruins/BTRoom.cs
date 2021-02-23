@@ -8,7 +8,7 @@ namespace Barotrauma.RuinGeneration
     /// <summary>
     /// nodes of a binary tree used for generating underwater "dungeons"
     /// </summary>
-    class BTRoom : RuinShape
+	public class BTRoom : RuinShape
     {
         private BTRoom[] subRooms;
 

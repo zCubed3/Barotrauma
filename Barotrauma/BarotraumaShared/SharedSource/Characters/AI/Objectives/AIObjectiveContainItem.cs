@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveContainItem: AIObjective
+	public class AIObjectiveContainItem: AIObjective
     {
         public override string DebugTag => "contain item";
 

@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Networking
 {
-    class ServerInfo
+    public class ServerInfo
     {
         public string IP;
         public string Port;

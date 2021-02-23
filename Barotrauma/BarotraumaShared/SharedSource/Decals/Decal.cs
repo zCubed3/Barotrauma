@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    partial class Decal
+    public partial class Decal
     {
         public readonly DecalPrefab Prefab;
         private Vector2 position;

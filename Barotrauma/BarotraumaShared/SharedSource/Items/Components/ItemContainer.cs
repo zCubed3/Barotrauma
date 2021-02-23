@@ -7,9 +7,9 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma.Items.Components
 {
-    partial class ItemContainer : ItemComponent, IDrawableComponent
+    public partial class ItemContainer : ItemComponent, IDrawableComponent
     {
-        class ActiveContainedItem
+	public class ActiveContainedItem
         {
             public readonly Item Item;
             public readonly StatusEffect StatusEffect;

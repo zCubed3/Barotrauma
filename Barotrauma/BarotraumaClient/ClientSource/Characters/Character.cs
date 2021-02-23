@@ -14,7 +14,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    partial class Character
+    public partial class Character
     {
         public static bool DisableControls;
 

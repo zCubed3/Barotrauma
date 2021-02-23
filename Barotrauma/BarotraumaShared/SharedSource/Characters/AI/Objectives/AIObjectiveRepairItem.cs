@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectiveRepairItem : AIObjective
+	public class AIObjectiveRepairItem : AIObjective
     {
         public override string DebugTag => "repair item";
 

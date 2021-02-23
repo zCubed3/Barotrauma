@@ -7,7 +7,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class FishAnimController : AnimController
+	public class FishAnimController : AnimController
     {
         public override RagdollParams RagdollParams
         {

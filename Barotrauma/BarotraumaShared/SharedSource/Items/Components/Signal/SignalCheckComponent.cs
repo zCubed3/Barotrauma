@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class SignalCheckComponent : ItemComponent
+	public class SignalCheckComponent : ItemComponent
     {
         [InGameEditable, Serialize("1", true, description: "The signal this item outputs when the received signal matches the target signal.", alwaysUseInstanceValues: true)]
         public string Output { get; set; }

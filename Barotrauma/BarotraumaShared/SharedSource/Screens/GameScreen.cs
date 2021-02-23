@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Barotrauma
 {
-    partial class GameScreen : Screen
+	public partial class GameScreen : Screen
     {
         private object updateLock = new object();
         private double physicsTime;

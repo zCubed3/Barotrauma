@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class WaterDetector : ItemComponent
+	public class WaterDetector : ItemComponent
     {
         //how often the detector can switch from state to another
         const float StateSwitchInterval = 1.0f;

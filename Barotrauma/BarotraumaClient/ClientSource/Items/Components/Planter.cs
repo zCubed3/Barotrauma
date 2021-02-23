@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma.Items.Components
 {
-    internal partial class Planter
+    public partial class Planter
     {
         public Vector2 DrawSize => CalculateSize();
 

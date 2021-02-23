@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    class AIObjectiveRepairItems : AIObjectiveLoop<Item>
+	public class AIObjectiveRepairItems : AIObjectiveLoop<Item>
     {
         public override string DebugTag => "repair items";
 

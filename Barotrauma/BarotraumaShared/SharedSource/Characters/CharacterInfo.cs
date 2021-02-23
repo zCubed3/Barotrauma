@@ -14,7 +14,7 @@ namespace Barotrauma
     public enum Race { None, White, Black, Brown, Asian };
     
     // TODO: Generating the HeadInfo could be simplified.
-    partial class CharacterInfo
+	public partial class CharacterInfo
     {
         public class HeadInfo
         {

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class RoundEndCinematic
+	public class RoundEndCinematic
     {
         public bool Running
         {

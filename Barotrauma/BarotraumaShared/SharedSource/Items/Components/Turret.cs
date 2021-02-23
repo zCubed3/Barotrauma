@@ -12,7 +12,7 @@ using FarseerPhysics.Dynamics;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Turret : Powered, IDrawableComponent, IServerSerializable
+	public partial class Turret : Powered, IDrawableComponent, IServerSerializable
     {
         private Sprite barrelSprite, railSprite;
 

@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    partial class RespawnManager : Entity, IServerSerializable
+	public partial class RespawnManager : Entity, IServerSerializable
     {
         public enum State
         {

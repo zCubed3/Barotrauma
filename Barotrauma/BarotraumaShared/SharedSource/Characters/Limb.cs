@@ -20,7 +20,7 @@ namespace Barotrauma
         LeftLeg, RightLeg, LeftFoot, RightFoot, Head, Torso, Tail, Legs, RightThigh, LeftThigh, Waist, Jaw
     };
 
-    partial class LimbJoint
+	public partial class LimbJoint
     {
         public bool IsSevered;
         public bool CanBeSevered => Params.CanBeSevered;
@@ -200,7 +200,7 @@ namespace Barotrauma
         }
     }
     
-    partial class Limb : ISerializableEntity, ISpatialEntity
+    public partial class Limb : ISerializableEntity, ISpatialEntity
     {
         //how long it takes for severed limbs to fade out
         public float SeveredFadeOutTime => Params.SeveredFadeOutTime;

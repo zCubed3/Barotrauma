@@ -33,7 +33,7 @@ namespace Barotrauma.Networking
         READY_CHECK
         
     }
-    enum ClientNetObject
+    public enum ClientNetObject
     {
         END_OF_MESSAGE, //self-explanatory
         SYNC_IDS,       //ids of the last changes the client knows about
@@ -44,13 +44,13 @@ namespace Barotrauma.Networking
         SPECTATING_POS
     }
 
-    enum ClientNetError
+    public enum ClientNetError
     {
         MISSING_EVENT, //client was expecting a previous event
         MISSING_ENTITY //client can't find an entity of a certain ID
     }
 
-    enum ServerPacketHeader
+    public enum ServerPacketHeader
     {
         AUTH_RESPONSE,      //tell the player if they require a password to log in
         AUTH_FAILURE,       //the server won't authorize player yet, however connection is still alive
@@ -82,7 +82,7 @@ namespace Barotrauma.Networking
         CREW,               //anything related to managing bots in multiplayer
         READY_CHECK         //start, end and update a ready check 
     }
-    enum ServerNetObject
+    public enum ServerNetObject
     {
         END_OF_MESSAGE,
         SYNC_IDS,
@@ -94,7 +94,7 @@ namespace Barotrauma.Networking
         ENTITY_EVENT_INITIAL
     }
 
-    enum TraitorMessageType
+    public enum TraitorMessageType
     {
         Server,
         ServerMessageBox,
@@ -102,7 +102,7 @@ namespace Barotrauma.Networking
         Console
     }
 
-    enum VoteType
+    public enum VoteType
     {
         Unknown,
         Sub,
@@ -122,7 +122,7 @@ namespace Barotrauma.Networking
         End
     }
 
-    enum DisconnectReason
+    public enum DisconnectReason
     {
         Unknown,
         Banned,
@@ -147,7 +147,7 @@ namespace Barotrauma.Networking
         SyncTimeout
     }
 
-    abstract partial class NetworkMember
+	public abstract partial class NetworkMember
     {
         public UInt16 LastClientListUpdateID
         {

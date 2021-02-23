@@ -2,7 +2,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class NameTag : ItemComponent
+	public class NameTag : ItemComponent
     {
         [InGameEditable(MaxLength = 32), Serialize("", false, description: "Name written on the tag.", alwaysUseInstanceValues: true)]
         public string WrittenName { get; set; }

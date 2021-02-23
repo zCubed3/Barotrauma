@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class GiveSkillExpAction : EventAction
+	public class GiveSkillExpAction : EventAction
     {
         [Serialize("", true)]
         public string Skill { get; set; }

@@ -13,7 +13,7 @@ namespace Barotrauma.Networking
 
     public enum PlayerConnectionChangeType { None = 0, Joined = 1, Kicked = 2, Disconnected = 3, Banned = 4 }
 
-    partial class ChatMessage
+	public partial class ChatMessage
     {
         public const int MaxLength = 200;
 

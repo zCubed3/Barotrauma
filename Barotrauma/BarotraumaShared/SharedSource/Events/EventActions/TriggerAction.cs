@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class TriggerAction : EventAction
+	public class TriggerAction : EventAction
     {
         [Serialize("", true, description: "Tag of the first entity that will be used for trigger checks.")]
         public string Target1Tag { get; set; }

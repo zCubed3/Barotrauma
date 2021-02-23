@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class SkillSettings : ISerializableEntity
+	public class SkillSettings : ISerializableEntity
     {
         public static SkillSettings Current
         {

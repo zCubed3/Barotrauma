@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class PathNode
+	public class PathNode
     {
         public int state;
 
@@ -77,7 +77,7 @@ namespace Barotrauma
         }
     }
 
-    class PathFinder
+	public class PathFinder
     {
         public delegate float? GetNodePenaltyHandler(PathNode node, PathNode prevNode);
         public GetNodePenaltyHandler GetNodePenalty;

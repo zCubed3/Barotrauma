@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class MapGenerationParams : ISerializableEntity
+	public class MapGenerationParams : ISerializableEntity
     {
         private static MapGenerationParams instance;
         private static string loadedFile;

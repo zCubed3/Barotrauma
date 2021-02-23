@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class Inventory : IServerSerializable, IClientSerializable
+    public partial class Inventory : IServerSerializable, IClientSerializable
     {
         public const int MaxStackSize = 32;
 

@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class DivideComponent : ArithmeticComponent
+	public class DivideComponent : ArithmeticComponent
     {
         public DivideComponent(Item item, XElement element)
             : base(item, element)

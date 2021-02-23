@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class Decal
+    public partial class Decal
     {
 
         public void Draw(SpriteBatch spriteBatch, Hull hull, float depth)

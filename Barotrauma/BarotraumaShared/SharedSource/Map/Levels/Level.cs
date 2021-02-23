@@ -15,7 +15,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    partial class Level : Entity, IServerSerializable
+	public partial class Level : Entity, IServerSerializable
     {
         //all entities are disabled after they reach this depth
         public const int MaxEntityDepth = -300000;

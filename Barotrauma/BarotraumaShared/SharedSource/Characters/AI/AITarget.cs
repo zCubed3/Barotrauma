@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class AITarget
+	public partial class AITarget
     {
         public static List<AITarget> List = new List<AITarget>();
 

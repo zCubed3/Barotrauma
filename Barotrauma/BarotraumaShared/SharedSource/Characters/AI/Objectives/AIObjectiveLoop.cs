@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    abstract class AIObjectiveLoop<T> : AIObjective
+	public abstract class AIObjectiveLoop<T> : AIObjective
     {
         public HashSet<T> Targets { get; private set; } = new HashSet<T>();
         public Dictionary<T, AIObjective> Objectives { get; private set; } = new Dictionary<T, AIObjective>();

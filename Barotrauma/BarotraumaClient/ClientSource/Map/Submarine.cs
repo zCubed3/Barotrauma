@@ -15,7 +15,7 @@ using System.Globalization;
 
 namespace Barotrauma
 {
-    class RoundSound
+    public class RoundSound
     {
         public Sound Sound;
         public readonly float Volume;

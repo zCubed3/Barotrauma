@@ -6,7 +6,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    partial class AfflictionHusk : Affliction
+	public partial class AfflictionHusk : Affliction
     {
         public enum InfectionState
         {

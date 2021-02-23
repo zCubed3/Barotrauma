@@ -12,7 +12,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    partial class Traitor
+    public partial class Traitor
     {
         public class TraitorMission
         {

@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class PowerTransfer : Powered
+	public partial class PowerTransfer : Powered
     {
         public List<Connection> PowerConnections { get; private set; }
 

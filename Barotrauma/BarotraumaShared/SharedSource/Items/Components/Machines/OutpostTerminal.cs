@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class OutpostTerminal : ItemComponent
+	public partial class OutpostTerminal : ItemComponent
     {
         public OutpostTerminal(Item item, XElement element) : base(item, element)
         {

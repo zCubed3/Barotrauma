@@ -7,7 +7,7 @@ using FarseerPhysics;
 
 namespace Barotrauma
 {
-    class IndoorsSteeringManager : SteeringManager
+	public class IndoorsSteeringManager : SteeringManager
     {
         private PathFinder pathFinder;
         private SteeringPath currentPath;

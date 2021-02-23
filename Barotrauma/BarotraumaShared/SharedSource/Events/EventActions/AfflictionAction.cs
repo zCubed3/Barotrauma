@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class AfflictionAction : EventAction
+	public class AfflictionAction : EventAction
     {
         [Serialize("", true)]
         public string Affliction { get; set; }

@@ -12,7 +12,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma
 {
-    class PurchasedItem
+	public class PurchasedItem
     {
         public ItemPrefab ItemPrefab { get; }
         public int Quantity { get; set; }
@@ -24,7 +24,7 @@ namespace Barotrauma
         }
     }
 
-    class SoldItem
+	public class SoldItem
     {
         public ItemPrefab ItemPrefab { get; }
         public ushort ID { get; }
@@ -40,7 +40,7 @@ namespace Barotrauma
         }
     }
 
-    partial class CargoManager
+	public partial class CargoManager
     {
         public const int MaxQuantity = 100;
 

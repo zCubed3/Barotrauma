@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Barotrauma.RuinGeneration
 {
 
-    class Corridor : RuinShape
+	public class Corridor : RuinShape
     {
         private readonly bool isHorizontal;
         

@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    abstract class BinaryOptionAction : EventAction
+	public abstract class BinaryOptionAction : EventAction
     {
         public SubactionGroup Success = null;
         public SubactionGroup Failure = null;

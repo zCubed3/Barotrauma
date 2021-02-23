@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma.Networking
 {
-    partial class OrderChatMessage : ChatMessage
+	public partial class OrderChatMessage : ChatMessage
     {
         public readonly Order Order;
 

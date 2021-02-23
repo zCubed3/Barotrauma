@@ -5,9 +5,9 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class CustomInterface : ItemComponent, IClientSerializable, IServerSerializable
+	public partial class CustomInterface : ItemComponent, IClientSerializable, IServerSerializable
     {
-        class CustomInterfaceElement : ISerializableEntity
+	public class CustomInterfaceElement : ISerializableEntity
         {
             public bool ContinuousSignal;
             public bool State;

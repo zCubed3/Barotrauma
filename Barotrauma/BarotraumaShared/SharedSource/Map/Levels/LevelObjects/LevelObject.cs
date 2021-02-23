@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class LevelObject : ISpatialEntity
+	public partial class LevelObject : ISpatialEntity
     {
         public readonly LevelObjectPrefab Prefab;
         public Vector3 Position;

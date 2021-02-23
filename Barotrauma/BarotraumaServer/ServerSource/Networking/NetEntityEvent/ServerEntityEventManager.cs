@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    class ServerEntityEvent : NetEntityEvent
+    public class ServerEntityEvent : NetEntityEvent
     {
         private IServerSerializable serializable;
                 
@@ -42,7 +42,7 @@ namespace Barotrauma.Networking
         }
     }
 
-    class ServerEntityEventManager : NetEntityEventManager
+    public class ServerEntityEventManager : NetEntityEventManager
     {
         private List<ServerEntityEvent> events;
 

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class Pickable : ItemComponent, IServerSerializable
+	public class Pickable : ItemComponent, IServerSerializable
     {
         protected Character picker;
 

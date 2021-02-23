@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    interface IDamageable
+    public interface IDamageable
     {
         Vector2 SimPosition
         {

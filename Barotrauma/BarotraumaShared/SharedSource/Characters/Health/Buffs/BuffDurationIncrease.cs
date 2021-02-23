@@ -3,7 +3,7 @@ using System;
 
 namespace Barotrauma
 {
-    class BuffDurationIncrease : Affliction
+	public class BuffDurationIncrease : Affliction
     {
         public BuffDurationIncrease(AfflictionPrefab prefab, float strength) : base(prefab, strength)
         {

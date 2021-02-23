@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class ConversationAction : EventAction
+	public partial class ConversationAction : EventAction
     {
 
         public enum DialogTypes

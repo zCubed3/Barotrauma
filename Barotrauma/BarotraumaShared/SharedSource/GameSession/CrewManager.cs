@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class CrewManager
+	public partial class CrewManager
     {
         const float ConversationIntervalMin = 100.0f;
         const float ConversationIntervalMax = 180.0f;

@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 #if USE_STEAM
 namespace Barotrauma.Steam
 {
-    static partial class SteamManager
+	public static partial class SteamManager
     {
         public const int STEAMP2P_OWNER_PORT = 30000;
 

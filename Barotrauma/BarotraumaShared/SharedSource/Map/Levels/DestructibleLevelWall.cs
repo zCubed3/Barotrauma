@@ -6,7 +6,7 @@ using Voronoi2;
 
 namespace Barotrauma
 {
-    partial class DestructibleLevelWall : LevelWall, IDamageable 
+	public partial class DestructibleLevelWall : LevelWall, IDamageable 
     {
         public bool NetworkUpdatePending;
 

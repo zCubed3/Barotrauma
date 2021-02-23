@@ -1,7 +1,7 @@
 ﻿#nullable enable
 namespace Barotrauma.MapCreatures.Behavior
 {
-    class BallastFloraStateMachine
+	public class BallastFloraStateMachine
     {
         private readonly BallastFloraBehavior parent;
 

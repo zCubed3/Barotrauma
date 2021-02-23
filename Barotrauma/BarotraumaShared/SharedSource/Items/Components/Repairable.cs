@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Repairable : ItemComponent, IServerSerializable, IClientSerializable
+	public partial class Repairable : ItemComponent, IServerSerializable, IClientSerializable
     {
         private string header;
 

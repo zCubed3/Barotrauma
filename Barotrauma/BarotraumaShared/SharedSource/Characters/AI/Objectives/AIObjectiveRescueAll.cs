@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveRescueAll : AIObjectiveLoop<Character>
+	public class AIObjectiveRescueAll : AIObjectiveLoop<Character>
     {
         public override string DebugTag => "rescue all";
         public override bool ForceRun => true;

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma.Networking
 {
-    abstract class NetEntityEventManager
+	public abstract class NetEntityEventManager
     {
         public const int MaxEventBufferLength = 1024;
         

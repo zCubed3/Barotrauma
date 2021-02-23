@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    abstract class EventAction
+	public abstract class EventAction
     {
         public class SubactionGroup
         {

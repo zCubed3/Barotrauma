@@ -7,7 +7,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class AIObjectivePumpWater : AIObjectiveLoop<Pump>
+	public class AIObjectivePumpWater : AIObjectiveLoop<Pump>
     {
         public override string DebugTag => "pump water";
         public override bool KeepDivingGearOn => true;

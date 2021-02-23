@@ -2,7 +2,7 @@
 
 namespace Barotrauma
 {
-    class ArtifactEvent : Event
+	public class ArtifactEvent : Event
     {
         private ItemPrefab itemPrefab;
 

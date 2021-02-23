@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CheckReputationAction : CheckDataAction
+	public class CheckReputationAction : CheckDataAction
     {
         [Serialize(ReputationAction.ReputationType.None, true)]
         public ReputationAction.ReputationType TargetType { get; set; }

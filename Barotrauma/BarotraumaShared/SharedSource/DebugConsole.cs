@@ -15,7 +15,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma
 {
-    struct ColoredText
+    public struct ColoredText
     {
         public string Text;
         public Color Color;
@@ -35,7 +35,7 @@ namespace Barotrauma
         }
     }
 
-    static partial class DebugConsole
+    public static partial class DebugConsole
     {
         public partial class Command
         {

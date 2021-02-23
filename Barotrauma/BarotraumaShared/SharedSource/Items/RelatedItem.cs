@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class RelatedItem
+    public class RelatedItem
     {
         public enum RelationType
         {

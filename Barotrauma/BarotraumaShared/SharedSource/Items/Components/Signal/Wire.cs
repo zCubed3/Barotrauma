@@ -11,9 +11,9 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Wire : ItemComponent, IDrawableComponent, IServerSerializable, IClientSerializable
+	public partial class Wire : ItemComponent, IDrawableComponent, IServerSerializable, IClientSerializable
     {
-        partial class WireSection
+	public partial class WireSection
         {
             private Vector2 start;
             private Vector2 end;

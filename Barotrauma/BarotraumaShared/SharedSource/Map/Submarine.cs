@@ -21,7 +21,7 @@ namespace Barotrauma
         None = 0, Left = 1, Right = 2
     }
 
-    partial class Submarine : Entity, IServerSerializable
+    public partial class Submarine : Entity, IServerSerializable
     {
         public SubmarineInfo Info { get; private set; }
 

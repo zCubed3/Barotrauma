@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    class LocationConnection
+	public class LocationConnection
     {
         public Biome Biome;
 

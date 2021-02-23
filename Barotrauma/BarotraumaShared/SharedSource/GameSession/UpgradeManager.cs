@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    internal class PurchasedUpgrade
+	public class PurchasedUpgrade
     {
         public readonly UpgradeCategory Category;
         public readonly UpgradePrefab Prefab;
@@ -38,7 +38,7 @@ namespace Barotrauma
     /// The target level of an upgrade is stored in the metadata and is what the store displays and modifies while this class will make sure that
     /// the upgrades on the items match the values stored in the metadata.
     /// </remarks>
-    partial class UpgradeManager
+	public partial class UpgradeManager
     {
         /// <summary>
         /// This one toggles whether or not connected submarines get upgraded too.

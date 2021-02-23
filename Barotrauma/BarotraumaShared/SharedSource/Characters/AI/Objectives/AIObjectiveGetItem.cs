@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveGetItem : AIObjective
+	public class AIObjectiveGetItem : AIObjective
     {
         public override string DebugTag => "get item";
 

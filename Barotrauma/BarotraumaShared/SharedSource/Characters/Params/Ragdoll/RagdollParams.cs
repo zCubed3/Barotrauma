@@ -12,18 +12,18 @@ using Barotrauma.SpriteDeformations;
 
 namespace Barotrauma
 {
-    class HumanRagdollParams : RagdollParams
+	public class HumanRagdollParams : RagdollParams
     {
         public static HumanRagdollParams GetRagdollParams(string speciesName, string fileName = null) => GetRagdollParams<HumanRagdollParams>(speciesName, fileName);
         public static HumanRagdollParams GetDefaultRagdollParams(string speciesName) => GetDefaultRagdollParams<HumanRagdollParams>(speciesName);
     }
 
-    class FishRagdollParams : RagdollParams
+	public class FishRagdollParams : RagdollParams
     {
         public static FishRagdollParams GetDefaultRagdollParams(string speciesName) => GetDefaultRagdollParams<FishRagdollParams>(speciesName);
     }
 
-    class RagdollParams : EditableParams, IMemorizable<RagdollParams>
+	public class RagdollParams : EditableParams, IMemorizable<RagdollParams>
     {
         #region Ragdoll
         public const float MIN_SCALE = 0.1f;

@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Barotrauma.Networking
 {
-    static partial class ChildServerRelay
+	public static partial class ChildServerRelay
     {
         private static System.IO.Stream writeStream;
         private static System.IO.Stream readStream;

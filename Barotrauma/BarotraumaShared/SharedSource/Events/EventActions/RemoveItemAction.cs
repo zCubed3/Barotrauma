@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class RemoveItemAction : EventAction
+	public class RemoveItemAction : EventAction
     {
         [Serialize("", true)]
         public string TargetTag { get; set; }

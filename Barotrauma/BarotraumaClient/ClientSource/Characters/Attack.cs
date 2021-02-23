@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class Attack
+    public partial class Attack
     {
         [Serialize("StructureBlunt", true), Editable()]
         public string StructureSoundType { get; private set; }

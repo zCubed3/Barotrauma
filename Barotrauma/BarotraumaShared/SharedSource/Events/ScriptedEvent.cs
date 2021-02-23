@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class ScriptedEvent : Event
+	public class ScriptedEvent : Event
     {
         private readonly Dictionary<string, List<Predicate<Entity>>> targetPredicates = new Dictionary<string, List<Predicate<Entity>>>();
 

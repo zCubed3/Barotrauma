@@ -13,7 +13,7 @@ using Vector4 = Microsoft.Xna.Framework.Vector4;
 
 namespace Barotrauma.Items.Components
 {
-    internal class ProducedItem
+	public class ProducedItem
     {
         [Serialize(0f, true)]
         public float Probability { get; set; }
@@ -67,7 +67,7 @@ namespace Barotrauma.Items.Components
     }
 
     // ReSharper disable UnusedMember.Global
-    internal enum VineTileType
+    public enum VineTileType
     {
         Stem = 0b0000,
         CrossJunction = 0b1111,
@@ -88,7 +88,7 @@ namespace Barotrauma.Items.Components
     }
 
     [Flags]
-    internal enum TileSide
+    public enum TileSide
     {
         None = 0,
         Top = 1 << 0,
@@ -97,7 +97,7 @@ namespace Barotrauma.Items.Components
         Right = 1 << 3
     }
 
-    internal struct FoliageConfig
+    public struct FoliageConfig
     {
         public static FoliageConfig EmptyConfig = new FoliageConfig { Variant = -1, Rotation = 0f, Scale = 1.0f };
         public static readonly int EmptyConfigValue = EmptyConfig.Serialize();
@@ -133,7 +133,7 @@ namespace Barotrauma.Items.Components
         }
     }
 
-    internal partial class VineTile
+	public partial class VineTile
     {
         public TileSide Sides = TileSide.None;
         public TileSide BlockedSides = TileSide.None;
@@ -308,7 +308,7 @@ namespace Barotrauma.Items.Components
         public static Rectangle CreatePlantRect(Vector2 pos) => new Rectangle((int) pos.X - Size / 2, (int) pos.Y + Size / 2, Size, Size);
     }
 
-    internal static class GrowthSideExtension
+	public static class GrowthSideExtension
     {
         // Enum.HasFlag() sucks
         public static bool IsBitSet(this TileSide side, TileSide bit)
@@ -336,7 +336,7 @@ namespace Barotrauma.Items.Components
         }
     }
 
-    internal partial class Growable : ItemComponent, IServerSerializable
+	public partial class Growable : ItemComponent, IServerSerializable
     {
         // used for debugging where a vine failed to grow
         public readonly HashSet<Rectangle> FailedRectangles = new HashSet<Rectangle>();

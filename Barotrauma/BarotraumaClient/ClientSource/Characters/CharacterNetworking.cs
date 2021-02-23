@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class Character
+    public partial class Character
     {
         partial void UpdateNetInput()
         {

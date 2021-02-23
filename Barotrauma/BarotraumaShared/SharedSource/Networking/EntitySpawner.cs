@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class EntitySpawner : Entity, IServerSerializable
+	public partial class EntitySpawner : Entity, IServerSerializable
     {
         private enum SpawnableType { Item, Character };
         
@@ -103,7 +103,7 @@ namespace Barotrauma
             }
         }
 
-        class CharacterSpawnInfo : IEntitySpawnInfo
+	public class CharacterSpawnInfo : IEntitySpawnInfo
         {
             public readonly string identifier;
 

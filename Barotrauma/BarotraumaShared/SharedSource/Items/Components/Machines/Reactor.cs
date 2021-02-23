@@ -9,7 +9,7 @@ using System.Globalization;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Reactor : Powered, IServerSerializable, IClientSerializable
+	public partial class Reactor : Powered, IServerSerializable, IClientSerializable
     {
         const float NetworkUpdateIntervalHigh = 0.5f;
         const float NetworkUpdateIntervalLow = 10.0f;

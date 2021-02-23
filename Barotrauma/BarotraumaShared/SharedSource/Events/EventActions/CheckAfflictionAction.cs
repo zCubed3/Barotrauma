@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    internal class CheckAfflictionAction : BinaryOptionAction
+	public class CheckAfflictionAction : BinaryOptionAction
     {
         [Serialize("", true)]
         public string Identifier { get; set; } = "";

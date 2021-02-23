@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Barotrauma
 {
-    class AfflictionBleeding : Affliction
+	public class AfflictionBleeding : Affliction
     {
         public AfflictionBleeding(AfflictionPrefab prefab, float strength) : 
             base(prefab, strength)

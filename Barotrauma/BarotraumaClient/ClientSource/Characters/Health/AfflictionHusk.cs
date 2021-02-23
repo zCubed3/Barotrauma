@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class AfflictionHusk : Affliction
+    public partial class AfflictionHusk : Affliction
     {
         partial void UpdateMessages()
         {

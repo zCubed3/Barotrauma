@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class FireAction : EventAction
+	public class FireAction : EventAction
     {
         [Serialize(10.0f, true)]
         public float Size { get; set; }

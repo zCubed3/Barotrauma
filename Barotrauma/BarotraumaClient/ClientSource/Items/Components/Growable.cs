@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma.Items.Components
 {
-    internal class VineSprite
+    public class VineSprite
     {
         [Serialize("0,0,0,0", false)]
         public Rectangle SourceRect { get; private set; }
@@ -25,7 +25,7 @@ namespace Barotrauma.Items.Components
         }
     }
 
-    internal partial class Growable
+    public partial class Growable
     {
         public readonly Dictionary<VineTileType, VineSprite> VineSprites = new Dictionary<VineTileType, VineSprite>();
         public readonly List<Sprite> FlowerSprites = new List<Sprite>();

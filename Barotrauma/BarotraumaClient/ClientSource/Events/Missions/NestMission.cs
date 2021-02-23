@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework;
 
 namespace Barotrauma
 {
-    partial class NestMission : Mission
+    public partial class NestMission : Mission
     {
         public override void ClientReadInitial(IReadMessage msg)
         {

@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Lights
 {
-    class LightSourceParams : ISerializableEntity
+    public class LightSourceParams : ISerializableEntity
     {
         public string Name => "Light Source";
 
@@ -191,7 +191,7 @@ namespace Barotrauma.Lights
         }
     }
 
-    class LightSource
+    public class LightSource
     {
         //how many pixels the position of the light needs to change for the light volume to be recalculated
         const float MovementRecalculationThreshold = 10.0f;

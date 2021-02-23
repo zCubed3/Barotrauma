@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class Structure : MapEntity, IDamageable, IServerSerializable
+    public partial class Structure : MapEntity, IDamageable, IServerSerializable
     {
         public static bool ShowWalls = true, ShowStructures = true;        
 

@@ -1,6 +1,6 @@
 ﻿namespace Barotrauma
 {
-    partial class DamageModifier
+    public partial class DamageModifier
     {
         [Serialize("", false), Editable]
         public string DamageSound

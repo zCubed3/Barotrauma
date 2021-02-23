@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    static class ForbiddenWordFilter
+	public static class ForbiddenWordFilter
     {
         static readonly string fileListPath = Path.Combine("Data", "forbiddenwordlist.txt");
 

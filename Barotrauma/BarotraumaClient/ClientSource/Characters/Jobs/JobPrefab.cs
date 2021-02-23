@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma
 {
-    partial class JobPrefab : IPrefab, IDisposable
+    public partial class JobPrefab : IPrefab, IDisposable
     {
         public GUIButton CreateInfoFrame(out GUIComponent buttonContainer)
         {

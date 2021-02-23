@@ -14,7 +14,7 @@ namespace Barotrauma
     /// <summary>
     /// Contains character data that should be editable in the character editor.
     /// </summary>
-    class CharacterParams : EditableParams
+    public class CharacterParams : EditableParams
     {
         [Serialize("", true), Editable]
         public string SpeciesName { get; private set; }

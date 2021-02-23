@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class LevelTrigger
+	public partial class LevelTrigger
     {
         [Flags]
         enum TriggererType

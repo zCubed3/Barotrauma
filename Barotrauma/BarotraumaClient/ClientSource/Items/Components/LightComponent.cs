@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Barotrauma.Items.Components
 {
-    partial class LightComponent : Powered, IServerSerializable, IDrawableComponent
+    public partial class LightComponent : Powered, IServerSerializable, IDrawableComponent
     {
         private bool? lastReceivedState;
 

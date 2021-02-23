@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Items.Components
 {
-    class SonarTransducer : Powered
+	public class SonarTransducer : Powered
     {
         const float SendSignalInterval = 0.5f;
 

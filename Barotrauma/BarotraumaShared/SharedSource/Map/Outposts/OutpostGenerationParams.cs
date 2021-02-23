@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class OutpostGenerationParams : ISerializableEntity
+	public class OutpostGenerationParams : ISerializableEntity
     {
         public static List<OutpostGenerationParams> Params { get; private set; }
 

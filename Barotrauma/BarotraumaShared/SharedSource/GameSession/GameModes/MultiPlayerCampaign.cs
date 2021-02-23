@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    partial class MultiPlayerCampaign : CampaignMode
+	public partial class MultiPlayerCampaign : CampaignMode
     {
         public const int MinimumInitialMoney = 500;
 

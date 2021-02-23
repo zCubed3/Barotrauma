@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    partial class MineralMission : Mission
+    public partial class MineralMission : Mission
     {
         public override void ClientReadInitial(IReadMessage msg)
         {

@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    abstract partial class MapEntity : Entity
+    public abstract partial class MapEntity : Entity
     {
         protected static Vector2 selectionPos = Vector2.Zero;
         protected static Vector2 selectionSize = Vector2.Zero;

@@ -10,7 +10,7 @@ using ColliderParams = Barotrauma.RagdollParams.ColliderParams;
 
 namespace Barotrauma
 {
-    class PosInfo
+	public class PosInfo
     {
         public Vector2 Position
         {
@@ -81,7 +81,7 @@ namespace Barotrauma
         }
     }
 
-    partial class PhysicsBody
+	public partial class PhysicsBody
     {
         public enum Shape
         {

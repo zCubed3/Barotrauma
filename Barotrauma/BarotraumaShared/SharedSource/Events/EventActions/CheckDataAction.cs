@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class CheckDataAction : BinaryOptionAction
+	public class CheckDataAction : BinaryOptionAction
     {
         [Serialize("", true)]
         public string Identifier { get; set; } = null!;

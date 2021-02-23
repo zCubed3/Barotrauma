@@ -2,7 +2,7 @@
 
 namespace Barotrauma.Steam
 {
-    partial class SteamManager
+    public partial class SteamManager
     {
         #region Server
 

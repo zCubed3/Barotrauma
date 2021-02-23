@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace Barotrauma
 {
-    class AIObjectiveManager
+	public class AIObjectiveManager
     {
         // TODO: expose
         public const float OrderPriority = 70;

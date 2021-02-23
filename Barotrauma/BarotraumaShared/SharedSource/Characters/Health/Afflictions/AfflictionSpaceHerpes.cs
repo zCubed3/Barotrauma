@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Barotrauma
 {
-    class AfflictionSpaceHerpes : Affliction
+	public class AfflictionSpaceHerpes : Affliction
     {
         private float invertControlsCooldown = 60.0f;
         private float stunCoolDown = 60.0f;

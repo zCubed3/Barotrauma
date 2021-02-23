@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class MemoryComponent : ItemComponent, IServerSerializable
+	public partial class MemoryComponent : ItemComponent, IServerSerializable
     {
         const int MaxValueLength = ChatMessage.MaxLength;
 

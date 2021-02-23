@@ -6,11 +6,11 @@ using System.Xml.Linq;
 
 namespace Barotrauma
 {
-    class NPCConversation
+	public class NPCConversation
     {
         const int MaxPreviousConversations = 20;
 
-        private class ConversationCollection
+	public class ConversationCollection
         {
             public readonly string Identifier;
 

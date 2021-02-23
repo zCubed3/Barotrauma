@@ -6,7 +6,7 @@ using Barotrauma.Networking;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Engine : Powered, IServerSerializable, IClientSerializable
+	public partial class Engine : Powered, IServerSerializable, IClientSerializable
     {
         private float force;
 

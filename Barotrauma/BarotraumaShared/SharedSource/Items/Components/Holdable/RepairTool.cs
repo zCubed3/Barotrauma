@@ -10,7 +10,7 @@ using Barotrauma.MapCreatures.Behavior;
 
 namespace Barotrauma.Items.Components
 {
-    partial class RepairTool : ItemComponent
+	public partial class RepairTool : ItemComponent
     {
         public enum UseEnvironment
         {

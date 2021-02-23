@@ -3,7 +3,7 @@ using System;
 
 namespace Barotrauma.Items.Components
 {
-    class ConcatComponent : StringComponent
+	public class ConcatComponent : StringComponent
     {
         private int maxOutputLength;
 

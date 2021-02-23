@@ -10,7 +10,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    class LocationType
+	public class LocationType
     {
         public static readonly List<LocationType> List = new List<LocationType>();
         

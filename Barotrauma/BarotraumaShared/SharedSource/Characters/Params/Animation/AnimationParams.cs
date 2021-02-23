@@ -18,7 +18,7 @@ namespace Barotrauma
         SwimFast
     }
 
-    abstract class GroundedMovementParams : AnimationParams
+	public abstract class GroundedMovementParams : AnimationParams
     {
         [Serialize("1.0, 1.0", true, description: "How big steps the character takes."), Editable(DecimalCount = 2, ValueStep = 0.01f)]
         public Vector2 StepSize
@@ -52,13 +52,13 @@ namespace Barotrauma
         public float BackwardsMovementMultiplier { get; set; }
     }
 
-    abstract class SwimParams : AnimationParams
+	public abstract class SwimParams : AnimationParams
     {
         [Serialize(25.0f, true, description: "Turning speed (or rather a force applied on the main collider to make it turn). Note that you can set a limb-specific steering forces too (additional)."), Editable(MinValueFloat = 0, MaxValueFloat = 500, ValueStep = 1)]
         public float SteerTorque { get; set; }
     }
 
-    abstract class AnimationParams : EditableParams, IMemorizable<AnimationParams>
+	public abstract class AnimationParams : EditableParams, IMemorizable<AnimationParams>
     {
         public string SpeciesName { get; private set; }
         public bool IsGroundedAnimation => AnimationType == AnimationType.Walk || AnimationType == AnimationType.Run;

@@ -12,7 +12,7 @@ using Barotrauma.Extensions;
 namespace Barotrauma
 {
     public enum SpawnType { Path = 0, Human = 1, Enemy = 2, Cargo = 3, Corpse = 4 };
-    partial class WayPoint : MapEntity
+    public partial class WayPoint : MapEntity
     {
         public static List<WayPoint> WayPointList = new List<WayPoint>();
 

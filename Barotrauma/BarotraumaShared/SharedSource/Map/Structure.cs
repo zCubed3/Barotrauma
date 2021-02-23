@@ -14,7 +14,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Barotrauma
 {
-    partial class WallSection : IIgnorable
+	public partial class WallSection : IIgnorable
     {
         public Rectangle rect;
         public float damage;
@@ -39,7 +39,7 @@ namespace Barotrauma
         }
     }
 
-    partial class Structure : MapEntity, IDamageable, IServerSerializable, ISerializableEntity
+	public partial class Structure : MapEntity, IDamageable, IServerSerializable, ISerializableEntity
     {
         public const int WallSectionSize = 96;
         public static List<Structure> WallList = new List<Structure>();

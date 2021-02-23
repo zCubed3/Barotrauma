@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    partial class Terminal : ItemComponent, IClientSerializable, IServerSerializable
+    public partial class Terminal : ItemComponent, IClientSerializable, IServerSerializable
     {
         public void ServerRead(ClientNetObject type, IReadMessage msg, Client c)
         {

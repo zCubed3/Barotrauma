@@ -7,7 +7,7 @@ using Barotrauma.Extensions;
 
 namespace Barotrauma
 {
-    partial class EventManager
+	public partial class EventManager
     {
         public enum NetworkEventType
         {

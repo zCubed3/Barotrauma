@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Barotrauma.Items.Components
 {
-    class ColorComponent : ItemComponent
+	public class ColorComponent : ItemComponent
     {
         protected float[] receivedSignal;
 
